@@ -1,0 +1,340 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.4"
+    },
+    "CreationDate": "2024-09-02T19:36:39+02:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Zoka-MainBoard",
+      "GUID": "5a6f6b61-2d4d-4616-996e-426f6172642e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 55.2653,
+      "Y": 83.4602
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Zoka-MainBoard-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In1_Cu.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In2_Cu.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In3_Cu.g4",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In4_Cu.g5",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In5_Cu.g6",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In6_Cu.g7",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In7_Cu.g8",
+      "FileFunction": "Copper,L8,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In8_Cu.g9",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In9_Cu.g10",
+      "FileFunction": "Copper,L10,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In10_Cu.g11",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In11_Cu.g12",
+      "FileFunction": "Copper,L12,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In12_Cu.g13",
+      "FileFunction": "Copper,L13,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In13_Cu.g14",
+      "FileFunction": "Copper,L14,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In14_Cu.g15",
+      "FileFunction": "Copper,L15,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In15_Cu.g16",
+      "FileFunction": "Copper,L16,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In16_Cu.g17",
+      "FileFunction": "Copper,L17,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In17_Cu.g18",
+      "FileFunction": "Copper,L18,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In18_Cu.g19",
+      "FileFunction": "Copper,L19,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In19_Cu.g20",
+      "FileFunction": "Copper,L20,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In20_Cu.g21",
+      "FileFunction": "Copper,L21,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In21_Cu.g22",
+      "FileFunction": "Copper,L22,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In22_Cu.g23",
+      "FileFunction": "Copper,L23,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In23_Cu.g24",
+      "FileFunction": "Copper,L24,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In24_Cu.g25",
+      "FileFunction": "Copper,L25,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In25_Cu.g26",
+      "FileFunction": "Copper,L26,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In26_Cu.g27",
+      "FileFunction": "Copper,L27,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In27_Cu.g28",
+      "FileFunction": "Copper,L28,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In28_Cu.g29",
+      "FileFunction": "Copper,L29,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In29_Cu.g30",
+      "FileFunction": "Copper,L30,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-In30_Cu.g31",
+      "FileFunction": "Copper,L31,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-F_Adhesive.gta",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Adhesive.gba",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Zoka-MainBoard-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Zoka-MainBoard-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.24,
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

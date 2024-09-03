@@ -1,0 +1,4313 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2024-09-02T19:36:56+0200",
+    "kicad_version": "8.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/75b08848-9393-425e-a17d-60105119a7b1",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol H101 [H_MOUNTING_HOLE_M1]",
+                            "pos": {
+                                "x": 2.3114,
+                                "y": 1.397
+                            },
+                            "uuid": "34e4ba57-04f3-4cd7-95d5-f496ebfad73a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol H103 [H_MOUNTING_HOLE_M1]",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.2954
+                            },
+                            "uuid": "8ccbb486-ddb4-4584-98b2-f684c72982c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol LOGO101 [mounted_logo]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 1.7399
+                            },
+                            "uuid": "4ced1022-9a27-4977-b755-791bb89f902c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/MCU/",
+            "uuid_path": "/75b08848-9393-425e-a17d-60105119a7b1/a7e357a9-82a1-4b8d-acf0-65ce824c3be5",
+            "violations": [
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0212 [GND]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 1.1811
+                            },
+                            "uuid": "36fedc8b-67f3-4eb0-bd07-c3b810dd0bd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0207 [+3.3V]",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.9017
+                            },
+                            "uuid": "f730bd18-1be3-4b36-89ca-4bf04fefefa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U202 Pin 22 [GPA5, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.0287
+                            },
+                            "uuid": "1c20af6a-1941-4d30-9d03-2c64e32117d1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U202 Pin 23 [GPA6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.0541
+                            },
+                            "uuid": "7422849d-24f4-472d-865c-d93ca65e64df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U202 Pin 24 [GPA7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.0795
+                            },
+                            "uuid": "7c5f6d4b-02fd-4224-af9d-fb785237622e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U202 Pin 4 [GPB7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 0.8509
+                            },
+                            "uuid": "6335cacf-aa4c-44c5-a2ff-89a976230271"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U202 [U_MCP23017T-E/ML]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 0.8509
+                            },
+                            "uuid": "cf76d65c-56ea-4446-aa57-e3e07e394033"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 [GND]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 0.5461
+                            },
+                            "uuid": "b9d69bbb-7883-4afe-86d8-72c70b41e239"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C204 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 0.5207
+                            },
+                            "uuid": "0d88c55e-393b-4b4c-8a57-00c46e9d2885"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0208 [+3.3V]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.4699
+                            },
+                            "uuid": "cf8e0dab-343a-409c-9e07-e3c1bfc7cd8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D202 [D_V2FM10HM3/H]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.3335
+                            },
+                            "uuid": "613c1f25-d81e-41d9-9136-6fdad8cad2ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol J201 [J_TYPE-C-31-M-13]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.524
+                            },
+                            "uuid": "a06978af-9e8f-4ed4-a641-809d59a2c1e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0214 [GND]",
+                            "pos": {
+                                "x": 2.9337,
+                                "y": 1.7526
+                            },
+                            "uuid": "2082f7d1-4734-465e-a105-17b58fe7d132"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R207 [R_0402_5.23k_1%_0.06W]",
+                            "pos": {
+                                "x": 2.9337,
+                                "y": 1.7272
+                            },
+                            "uuid": "552b5e80-35c1-4ac0-bbc2-acdc46d2a267"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'VBUS' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0217 [VBUS]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.2827
+                            },
+                            "uuid": "9ec8b6ea-0ff2-4c51-a093-e14364341154"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D201 [D_SRV05-4]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 0.9525
+                            },
+                            "uuid": "e899e44b-8e94-415a-9d3d-b6a8cb1e1c5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0216 [GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.0795
+                            },
+                            "uuid": "ba4865d8-1cca-4338-8701-5ee7e5c85c0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0215 [GND]",
+                            "pos": {
+                                "x": 3.0099,
+                                "y": 1.7526
+                            },
+                            "uuid": "7537c0bb-6076-4ab1-8fa1-28f85ef312e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0218 [GND]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.6383
+                            },
+                            "uuid": "1afbcb31-479c-47b9-8959-a34c5b5ce8ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R208 [R_0402_5.23k_1%_0.06W]",
+                            "pos": {
+                                "x": 3.0099,
+                                "y": 1.7272
+                            },
+                            "uuid": "d9e227b5-aea8-421d-b40c-26fad4d2366c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "A pin with a “no connection” flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 23 [GPIO21, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 1.0541
+                            },
+                            "uuid": "6755d42c-b22e-40df-bfec-9a236bafe050"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.9779
+                            },
+                            "uuid": "98b9df62-d0ba-4798-b43e-1c86c730c4b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                },
+                {
+                    "description": "Conflicting netclass assignments",
+                    "items": [
+                        {
+                            "description": "Directive Label [Net Class DIsplay_Logic_Signals]",
+                            "pos": {
+                                "x": -0.6096,
+                                "y": 2.2479
+                            },
+                            "uuid": "33e9c9c2-47c6-4b24-8db6-8e3681fe36db"
+                        },
+                        {
+                            "description": "Directive Label [Net Class Display_Video_Signals]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 1.1811
+                            },
+                            "uuid": "df2b6e5a-d4ce-41ae-aeb3-7811093f5621"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "conflicting_netclasses"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.2319
+                            },
+                            "uuid": "6a974171-2ca9-4df7-a749-281fb956dfbe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0206 [GND]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.2319
+                            },
+                            "uuid": "9f740a57-8c84-4994-90f8-7b815b7da3a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U201 [U_ESP32-S3-WROOM-1U-N16R8]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.8255
+                            },
+                            "uuid": "ef230ab4-cc7e-4ab5-9efd-4fcafd13acb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both BUS I2C and SCL are attached to the same items; BUS I2C will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'BUS I2C'",
+                            "pos": {
+                                "x": -0.5207,
+                                "y": 1.6383
+                            },
+                            "uuid": "47a91aee-3fe3-4c02-a292-e009c0083567"
+                        },
+                        {
+                            "description": "Label 'SCL'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.6731
+                            },
+                            "uuid": "7eff0926-50e1-4d5c-a343-2b4e9136a984"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "A pin with a “no connection” flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 38 [GPIO2/TOUCH2/ADC1_CH1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.6731
+                            },
+                            "uuid": "8cfdfa7b-7896-434e-b1cf-213e0eb31b81"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.016
+                            },
+                            "uuid": "72775e41-70f9-4782-a2b8-d09503b2f984"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                },
+                {
+                    "description": "A pin with a “no connection” flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 13 [GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.5715
+                            },
+                            "uuid": "f7bfa805-2e3a-4a93-bee4-d962c2c1ebd1"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.9017
+                            },
+                            "uuid": "0ba69f3a-0a17-425d-bfa2-8e8615bbe79c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0213 [+3.3V]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.2794
+                            },
+                            "uuid": "0a14628f-5109-4d86-bdd3-9a3f08a5bc17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R206 [R_0402_4.7k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.3048
+                            },
+                            "uuid": "977c60cb-29a5-4b97-88ff-d79ee619065a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both Signaux USB and USB_D- are attached to the same items; Signaux USB will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'Signaux USB'",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.9017
+                            },
+                            "uuid": "6d3c7ec5-f4c0-427d-994d-80ebf823205c"
+                        },
+                        {
+                            "description": "Label 'USB_D-'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.5715
+                            },
+                            "uuid": "5227b882-cc26-499b-828c-9fdf8db19ae2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol TP202 [TESTPOINT_1.5MM]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.6223
+                            },
+                            "uuid": "63871c96-2dd6-4aee-aa9e-8ed1e3c4ae6a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0209 [+3.3V]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.2794
+                            },
+                            "uuid": "664df781-e029-4c33-95a6-a60d4a785fb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R205 [R_0402_4.7k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.3048
+                            },
+                            "uuid": "beeb5138-0fce-49ac-b5eb-aefb0a1cce7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C203 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.3048
+                            },
+                            "uuid": "9ecd0e9d-705c-4d9f-a249-54a70eb629b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0205 [GND]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.3302
+                            },
+                            "uuid": "f78ebd74-9112-46b3-a4d1-08d9477ce5d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 [GND]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.3302
+                            },
+                            "uuid": "a8e16338-afb9-4e5d-a1c8-ff8346536814"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C202 [C_0805_22uF_10V_XR7_20%]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.3048
+                            },
+                            "uuid": "d4bf5fec-f49d-4e42-b26c-3ec359693a34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0203 [+3.3V]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.2413
+                            },
+                            "uuid": "447c9bea-f411-444b-9130-50798342cf04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0201 [+3.3V]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.4064
+                            },
+                            "uuid": "b5bda0d6-ce69-4a25-aa9c-3f446a2d63a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R201 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.4318
+                            },
+                            "uuid": "e6cc1597-930c-42cf-9466-8829e732b608"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both ESP_POWER_EN and GPIO are attached to the same items; ESP_POWER_EN will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'ESP_POWER_EN'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.4953
+                            },
+                            "uuid": "b62a4db7-9781-46d6-8055-5cd801f2535f"
+                        },
+                        {
+                            "description": "Label 'GPIO'",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.9398
+                            },
+                            "uuid": "104ff1bc-3d2d-4244-a66d-e55c59092d2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both R2 and Signaux Video Affichage are attached to the same items; R2 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'R2'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.4699
+                            },
+                            "uuid": "1ac3c151-0e06-4c99-a9ac-7cd97064eb27"
+                        },
+                        {
+                            "description": "Label 'Signaux Video Affichage'",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.0541
+                            },
+                            "uuid": "49cbeb04-945f-4d53-a374-66ea03479ea2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both MISO and Signaux SPI Affichage are attached to the same items; MISO will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'MISO'",
+                            "pos": {
+                                "x": -0.6096,
+                                "y": 1.7907
+                            },
+                            "uuid": "32496e36-74bc-4f0b-a72d-8edda49bf880"
+                        },
+                        {
+                            "description": "Label 'Signaux SPI Affichage'",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.0922
+                            },
+                            "uuid": "c87b713a-6f81-41a8-9b1d-58fddf12e1ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol TP201 [TESTPOINT_1.5MM]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.4318
+                            },
+                            "uuid": "21874dcc-b7a5-415d-a59e-6c51ae798c51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C201 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.508
+                            },
+                            "uuid": "98db0fd9-31e7-4cfd-af00-295edd0089c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 [GND]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.5334
+                            },
+                            "uuid": "1fcf5897-3f59-4d05-8046-b52e5ccf2d86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R203 [R_0402_56R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.1016,
+                                "y": 2.1336
+                            },
+                            "uuid": "c363e68b-828d-4a72-a195-6cb32f0aa229"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R202 [R_0402_33R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.1016,
+                                "y": 2.0828
+                            },
+                            "uuid": "8b329bb3-9b96-4a34-b75c-a808a30da37b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R204 [R_0402_56R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.1016,
+                                "y": 2.1844
+                            },
+                            "uuid": "f43820d4-619d-486c-93e1-7cd376298db4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol LED201 [LED_MHPC3528CRGBCT]",
+                            "pos": {
+                                "x": 0.1778,
+                                "y": 2.1336
+                            },
+                            "uuid": "148cd5be-634a-429e-9dcf-efe0956a4f20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0211 [GND]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 2.2098
+                            },
+                            "uuid": "17514a20-ebfb-497c-8f5d-70dc24caf325"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Netclass DIsplay_Logic_Signals is not defined",
+                    "items": [
+                        {
+                            "description": "Directive Label [Net Class DIsplay_Logic_Signals]",
+                            "pos": {
+                                "x": -0.6096,
+                                "y": 2.2479
+                            },
+                            "uuid": "33e9c9c2-47c6-4b24-8db6-8e3681fe36db"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "undefined_netclass"
+                },
+                {
+                    "description": "Both BUS I2S and I2S_PDM_DATA are attached to the same items; BUS I2S will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'BUS I2S'",
+                            "pos": {
+                                "x": -0.5969,
+                                "y": 1.6764
+                            },
+                            "uuid": "3e76a443-8cac-4963-bd40-63dc81e67fcb"
+                        },
+                        {
+                            "description": "Label 'I2S_PDM_DATA'",
+                            "pos": {
+                                "x": -0.5969,
+                                "y": 1.6764
+                            },
+                            "uuid": "6a9210e5-8012-487b-b2ae-496c56797f11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/Battery Management/",
+            "uuid_path": "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q304 [Q_HSS2P10]",
+                            "pos": {
+                                "x": 5.6261,
+                                "y": -0.2921
+                            },
+                            "uuid": "897d62c0-b951-48d4-bd74-670373cce2d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol F301 [F_MFU0603FF05000P100]",
+                            "pos": {
+                                "x": 6.2865,
+                                "y": -0.3429
+                            },
+                            "uuid": "c1a7c622-fecc-4000-a493-abfc5f0e0af1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R312 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 5.6261,
+                                "y": -0.1778
+                            },
+                            "uuid": "40af5ea0-dfce-41c6-b5c8-d8f8821bee85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q303 [Q_BSS123WQ-7-F]",
+                            "pos": {
+                                "x": 5.6007,
+                                "y": -0.0889
+                            },
+                            "uuid": "dc5238bc-be9f-4a7a-9a73-f3e19ce58ee1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R310 [R_0402_1M_1%_0.06W]",
+                            "pos": {
+                                "x": 5.4991,
+                                "y": -0.0508
+                            },
+                            "uuid": "6ef25529-63e4-41b8-bbba-acb14d14bfac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R311 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 5.5118,
+                                "y": -0.2667
+                            },
+                            "uuid": "881c790b-d1a0-4606-b3cc-fa600a6d21ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R305 [R_0402_1M_1%_0.06W]",
+                            "pos": {
+                                "x": 4.6228,
+                                "y": -0.0635
+                            },
+                            "uuid": "c2ff4349-b0e4-4997-8878-1b22c05660bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0321 [GND]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": 0.0
+                            },
+                            "uuid": "111efb9c-a5b3-4262-b8b1-34ab646e6085"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0334 [GND]",
+                            "pos": {
+                                "x": 5.6261,
+                                "y": 0.0
+                            },
+                            "uuid": "0ca2bc23-85b0-482d-952a-95c28fe6e682"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0304 [GND]",
+                            "pos": {
+                                "x": 6.4262,
+                                "y": 0.0254
+                            },
+                            "uuid": "8f6aacc6-b2f2-4bfa-abf1-6293f73fd440"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0303 [GND]",
+                            "pos": {
+                                "x": 6.2484,
+                                "y": 0.0254
+                            },
+                            "uuid": "eae58ff7-feaf-46ba-adaf-d43c47dd84d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D301 [D_SRV05-4]",
+                            "pos": {
+                                "x": 6.2484,
+                                "y": -0.1016
+                            },
+                            "uuid": "b4fae583-addb-48a7-aa13-21bda3d08805"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol J301 [J_JST_S2B-PH-SM4-TB]",
+                            "pos": {
+                                "x": 6.4008,
+                                "y": -0.3048
+                            },
+                            "uuid": "1a057db2-c824-4727-b485-290ebf4a8ef7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R307 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": -0.2032
+                            },
+                            "uuid": "56193912-0fb9-4a87-98a0-36a2605fa9f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q302 [Q_HSS2P10]",
+                            "pos": {
+                                "x": 4.7498,
+                                "y": -0.3302
+                            },
+                            "uuid": "7a619887-c464-45f3-abe1-71016760f911"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R306 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 4.6355,
+                                "y": -0.3048
+                            },
+                            "uuid": "ea9ba88d-669e-4531-afd4-b125f1e6c55a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+1V8' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0318 [+1V8]",
+                            "pos": {
+                                "x": 4.572,
+                                "y": -0.3556
+                            },
+                            "uuid": "aae1a8a9-7f71-4a8d-b7a3-2dc6552f4113"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q301 [Q_BSS123WQ-7-F]",
+                            "pos": {
+                                "x": 4.7244,
+                                "y": -0.1016
+                            },
+                            "uuid": "7ac36748-11bd-4ceb-bb4e-d9512d91c6e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0319 [GND]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 2.3622
+                            },
+                            "uuid": "c419691d-db7a-4a6d-9ef9-b7b7b09c54e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R313 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.778
+                            },
+                            "uuid": "282d35fe-70d9-48d5-9307-c4b4bc2812c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q307 [Q_HSS2P10]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 1.3335
+                            },
+                            "uuid": "cd246352-5a9f-4b15-93b9-f3912e35c31d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R317 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.3589
+                            },
+                            "uuid": "27f0feb5-29cd-444a-86e0-836c21964bc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0337 [GND]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.8415
+                            },
+                            "uuid": "dd771733-82fd-47a2-9549-94c1ffb6909a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R314 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.651
+                            },
+                            "uuid": "3398bcf5-6765-4f07-b86b-4fdae6cbd8ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D302 [D_1SS301]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 1.4986
+                            },
+                            "uuid": "d938d466-245c-4ece-9f79-073f784dbccf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R315 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.3589
+                            },
+                            "uuid": "7f171154-cb58-468c-8426-bc8e75abbc8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0336 [+3.3V]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 1.6256
+                            },
+                            "uuid": "a7a42bf9-12a9-4b14-9769-33329344ba58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0341 [GND]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 1.6637
+                            },
+                            "uuid": "aa0b7dc0-20b5-47b1-bbc7-46c8403d2253"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q306 [Q_BSS123WQ-7-F]",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 1.5621
+                            },
+                            "uuid": "2b646394-e116-45c1-a559-adf833444325"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R316 [R_0402_1M_1%_0.06W]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.6002
+                            },
+                            "uuid": "c52904c8-3141-4fbc-9779-3610d01e5ec1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R318 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 1.4605
+                            },
+                            "uuid": "e153b918-4f52-44ed-8870-76462fd64e8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q305 [Q_BSS123WQ-7-F]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.7399
+                            },
+                            "uuid": "14e6084f-93e3-4fa9-8200-90d2eab75aed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0308 [GND]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.8128
+                            },
+                            "uuid": "318482d2-bf63-4616-a545-77cfa3a6c51f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0309 [GND]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.8128
+                            },
+                            "uuid": "67990315-6f9d-49d5-99df-7cab2b10d22e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0307 [GND]",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.8128
+                            },
+                            "uuid": "d799a528-2f19-41d3-8850-bf0e8e480f55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R324 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.7366
+                            },
+                            "uuid": "b448299a-2373-4f37-86c9-7c734b592ce5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U303 [U_BQ24296MRGER]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.5461
+                            },
+                            "uuid": "a580da29-57ea-45e6-8af1-28ca6de72b6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0317 [GND]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.8128
+                            },
+                            "uuid": "b1418637-d4b0-437e-b0f4-0f20456b6f3f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0315 [GND]",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 0.8128
+                            },
+                            "uuid": "973f42ea-440b-42e2-8caf-b3140aef4d36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0322 [GND]",
+                            "pos": {
+                                "x": 0.9652,
+                                "y": 0.8128
+                            },
+                            "uuid": "8777c8e6-c640-4a40-a41f-0c7e4e4d319c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0324 [GND]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.8128
+                            },
+                            "uuid": "f54d1611-91e2-4070-901f-23c028cf0cb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C303 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 0.5588
+                            },
+                            "uuid": "ba3c3e0e-06dd-455f-98d2-046cd1ae3b52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R301 [R_0402_316R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.5588
+                            },
+                            "uuid": "80750346-6c39-4714-bc40-dc6096767fcc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C302 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.5588
+                            },
+                            "uuid": "e326a920-0923-4c2f-bced-294346eea825"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'VBUS' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0306 [VBUS]",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 0.3937
+                            },
+                            "uuid": "34307672-49a9-4755-af2c-d8f4a71741d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R323 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.7366
+                            },
+                            "uuid": "54fae80c-1482-4734-8c98-71909fe31b70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0313 [GND]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.8128
+                            },
+                            "uuid": "f229e114-efe2-473c-a8fe-51cd7a3ebb11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0311 [+3.3V]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.5461
+                            },
+                            "uuid": "d6b0388a-2c5f-4e6a-affa-3dcb0226271f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R302 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.5715
+                            },
+                            "uuid": "dca7d7ae-215b-46bc-b418-f0b272069eb1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C309 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.5715
+                            },
+                            "uuid": "eb65b3e9-f9cd-4fd8-85de-23480ad2d0eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0326 [GND]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.6096
+                            },
+                            "uuid": "1ae94068-63e1-4d74-9d9b-8a72347c81ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R308 [R_0402_5.23k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.6858
+                            },
+                            "uuid": "fbd76d35-f696-4a2e-bda3-47f7091be507"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R303 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.4826
+                            },
+                            "uuid": "492259da-8eb8-4f9e-9a97-3633706c7304"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0316 [+3.3V]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 0.4826
+                            },
+                            "uuid": "bcf665ed-2688-4a5e-8a4a-39efea3f0ca2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R304 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.5207
+                            },
+                            "uuid": "4caf6fc2-05b9-410c-8e45-293884844545"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol L302 [L_TFM252012ALMA1R0MTAA]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.3937
+                            },
+                            "uuid": "723ad2c0-f2a2-4c25-a9aa-52c3bc112bae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C308 [C_0402_47nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4191
+                            },
+                            "uuid": "baf7040f-c5da-4d09-bf59-57af39951a4d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0314 [+3.3V]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 0.5207
+                            },
+                            "uuid": "f7029a77-de7f-43d6-ac4d-d1654455dd7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0325 [GND]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.8128
+                            },
+                            "uuid": "5f74c522-14e3-48e3-bf16-371894e5d051"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R309 [R_0603_31.2k_0.5%_0.1W]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.762
+                            },
+                            "uuid": "e0a03e2a-e493-4dda-bd16-eb729fd6dfca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C314 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.4445
+                            },
+                            "uuid": "7a8022f3-5558-492f-be1f-b470e791e66d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C312 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.4445
+                            },
+                            "uuid": "7174069a-feba-4944-a0d9-8cb6b7d84ded"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C310 [C_0603_4.7uF_16V_X7R_10%]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.508
+                            },
+                            "uuid": "bbab43c9-44e6-45cc-afd6-94c3e260789b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol RT301 [RT_TX06F103F3435ER]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.762
+                            },
+                            "uuid": "2fc4b06e-6bf1-4e95-8fdf-cf89b4a18d31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0332 [GND]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.8128
+                            },
+                            "uuid": "8cdcb107-9b93-4583-b8ee-abca38130fec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0330 [GND]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.8128
+                            },
+                            "uuid": "038b171b-328a-426f-97f3-67411317cb36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0328 [GND]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.8128
+                            },
+                            "uuid": "e12a7ddb-a977-42e2-8c39-f64d56099a44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U303 Pin 1 [VBUS, Power input, Line]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 0.3937
+                            },
+                            "uuid": "43278ede-ccf3-42d3-9a1f-d3de2024de58"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C306 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.1971,
+                                "y": 0.5842
+                            },
+                            "uuid": "29a97894-b23c-4f19-89c0-70ddeb30bbc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0320 [GND]",
+                            "pos": {
+                                "x": 2.1971,
+                                "y": 0.7366
+                            },
+                            "uuid": "d54dcf3e-2d13-49ce-9802-367e8f89468d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0301 [+3.3V]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.1557
+                            },
+                            "uuid": "a1ca6e13-285c-472a-a097-f9a18a68d4ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U304 Pin 5 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 2.4638,
+                                "y": 0.4953
+                            },
+                            "uuid": "20e7ffab-4cdf-4caf-a719-da0d3e24041c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C307 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.5842
+                            },
+                            "uuid": "029b9b39-f4e9-4bc0-9fac-b582c6baed1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0323 [GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 0.7366
+                            },
+                            "uuid": "b70e19de-97f5-4cf1-afa8-9c54ec34c398"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol L301 [L_FNR3015S2R2MT]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.3683
+                            },
+                            "uuid": "fc6acd6e-e396-4743-8cbb-2e35da63330d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0327 [GND]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.7366
+                            },
+                            "uuid": "53a1228f-7815-459a-99cc-db6b09beded4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U304 [U_TPS63001DRCR]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.5588
+                            },
+                            "uuid": "e01dc322-471b-444c-ad56-4d891bba7fd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0333 [+3.3V]",
+                            "pos": {
+                                "x": 2.9337,
+                                "y": 0.4953
+                            },
+                            "uuid": "18814936-8c67-4164-9e57-5ad4abd0674a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0331 [GND]",
+                            "pos": {
+                                "x": 2.9083,
+                                "y": 0.7366
+                            },
+                            "uuid": "3023b976-eb17-4ea8-b5c9-86fb39f17e02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C313 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.9083,
+                                "y": 0.5842
+                            },
+                            "uuid": "a6cfb935-e47b-4b0f-b093-36237cb316d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C311 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.8067,
+                                "y": 0.5842
+                            },
+                            "uuid": "326c28dd-1f22-4f04-940d-0608ad9ad93e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0329 [GND]",
+                            "pos": {
+                                "x": 2.8067,
+                                "y": 0.7366
+                            },
+                            "uuid": "c7dc2413-beef-4904-9a1b-43ec69aad2a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U301 [U_LP3987H-18B5F]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.2065
+                            },
+                            "uuid": "bfa805c4-0893-4e43-8e43-2dba0eda77c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+1V8' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0312 [+1V8]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 1.1684
+                            },
+                            "uuid": "2c2b1369-2877-4dc5-86d8-a9cc855a7891"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0310 [GND]",
+                            "pos": {
+                                "x": 2.7305,
+                                "y": 1.3208
+                            },
+                            "uuid": "44803b32-1e70-4018-b6d5-558168380afa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C304 [C_0805_2.2uF_25V_X7R_20%]",
+                            "pos": {
+                                "x": 2.7305,
+                                "y": 1.2319
+                            },
+                            "uuid": "47af031e-cd9a-4d47-a36a-31ca53b13fe0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0305 [GND]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.3208
+                            },
+                            "uuid": "165059d7-7274-432d-b650-19ee6bd431e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0302 [GND]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.3208
+                            },
+                            "uuid": "5a835206-11fe-419b-9f6a-615f98268b48"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C301 [C_0805_2.2uF_25V_X7R_20%]",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.2319
+                            },
+                            "uuid": "6eb60e1d-7d5e-4ef2-aae2-8b3cce36efbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U302 [U_MAX17048G+T10]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 2.2479
+                            },
+                            "uuid": "28ebb8ed-7f4e-4bdf-a04e-1c959601f95c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C305 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 2.2733
+                            },
+                            "uuid": "8b8d666b-fb75-43d1-8c86-40fd8e3eecaf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D303 [D_V2FM10HM3/H]",
+                            "pos": {
+                                "x": 2.7305,
+                                "y": 1.9177
+                            },
+                            "uuid": "09c20c15-cadd-4fb1-8fb5-e615949a9eee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R320 [R_0402_200k_1%_0.06W]",
+                            "pos": {
+                                "x": 2.8067,
+                                "y": 1.9685
+                            },
+                            "uuid": "767b748e-7d12-4263-8719-6fec4dc94b23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0344 [GND]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.1209
+                            },
+                            "uuid": "82662881-5243-4e14-9369-988b0015ac22"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C317 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 2.0955
+                            },
+                            "uuid": "df36d323-dfb9-4241-821d-7a2838274438"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R319 [R_0402_42.2k_1%_0.06W]",
+                            "pos": {
+                                "x": 2.7178,
+                                "y": 2.0447
+                            },
+                            "uuid": "5351f320-2316-4f38-bc18-201f01168c66"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C318 [C_0402_1.2nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.7178,
+                                "y": 2.0955
+                            },
+                            "uuid": "17da747b-a921-40e3-8994-4958c465a433"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0342 [GND]",
+                            "pos": {
+                                "x": 2.7178,
+                                "y": 2.1209
+                            },
+                            "uuid": "4749808f-babb-4b88-bd26-0321872fc461"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0345 Hidden pin 1 [+10V, Power input, Line]",
+                            "pos": {
+                                "x": 2.9464,
+                                "y": 1.9177
+                            },
+                            "uuid": "e954b5b8-728c-48bd-be92-17dbdcc9b9f0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol '+10V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0345 [+10V]",
+                            "pos": {
+                                "x": 2.9464,
+                                "y": 1.9177
+                            },
+                            "uuid": "a87712df-de91-4c18-be06-1dbad7abe0b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C322 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.0193
+                            },
+                            "uuid": "a6242d0f-a490-4428-9d0c-f2ff3959e973"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C320 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.0193
+                            },
+                            "uuid": "2b146f67-6d9e-4967-ae6f-58a0f5a3d030"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C319 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.0193
+                            },
+                            "uuid": "19ea32b0-6f88-4a81-9f76-af9177a7a417"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C321 [C_0805_10uF_25V_X7R_10%]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 2.0193
+                            },
+                            "uuid": "91d6e16b-c543-4684-b12b-0e8de217555e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U305 [U_TPS61087DRCR]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.9685
+                            },
+                            "uuid": "9e9b7d07-4a76-49a2-944f-939eaa8fd660"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0343 [GND]",
+                            "pos": {
+                                "x": 2.8067,
+                                "y": 2.1209
+                            },
+                            "uuid": "c1a2b80d-3067-4d87-8b97-00203ccbbb7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R321 [R_0402_26.7k_1%_0.06W]",
+                            "pos": {
+                                "x": 2.8067,
+                                "y": 2.0447
+                            },
+                            "uuid": "a2ff144b-2eb4-4aa6-a9e0-bf140155fba8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0340 [GND]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 2.1209
+                            },
+                            "uuid": "543ef411-a69c-438f-b039-f67b981ba171"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0339 [GND]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 2.1209
+                            },
+                            "uuid": "1a339e44-0dcc-40e0-adb4-884057521987"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol L303 [L_7447789003]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.8034
+                            },
+                            "uuid": "0fc26c0d-dd08-4a9f-b3d2-e0d781d4f7d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U305 Pin 8 [IN, Power input, Line]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 1.9177
+                            },
+                            "uuid": "9675923e-65c3-469e-abdd-3d0d1f932635"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C315 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 2.0066
+                            },
+                            "uuid": "4e56e194-51d3-4864-a6e1-c79f5809922a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C316 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 2.0066
+                            },
+                            "uuid": "eae301d4-fca7-4654-a317-243c7bad6df4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0338 [GND]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 2.1209
+                            },
+                            "uuid": "17d40e79-f1af-4f2e-9815-c2aca699afc9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0335 [GND]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 2.1209
+                            },
+                            "uuid": "dc1516d2-83a6-4ad1-b883-644521db3e9c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/OLED/",
+            "uuid_path": "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660",
+            "violations": [
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0418 [GND]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 1.397
+                            },
+                            "uuid": "9db61356-b922-4f92-a1f6-742b72c470e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C408 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.5969
+                            },
+                            "uuid": "0c51ed7d-6498-4d00-8e19-2d9cd24a3025"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol J401 [J_ECX333A]",
+                            "pos": {
+                                "x": 1.7907,
+                                "y": 0.9271
+                            },
+                            "uuid": "94ab608c-8f1b-46c0-a840-d7e1e37b6753"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0417 [GND]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.7366
+                            },
+                            "uuid": "153a9a2d-bd5c-465c-9240-3af8eceb7ad1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C416 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.8001
+                            },
+                            "uuid": "c666c039-a6ce-4b3f-ab62-d679f37dc4d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C417 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.8255
+                            },
+                            "uuid": "2d2811ff-1005-4eb2-9f79-0fd0dd92b936"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C415 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.7747
+                            },
+                            "uuid": "b00c22d2-a517-4687-97b0-a6853e7c628f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+10V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0401 [+10V]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.4318
+                            },
+                            "uuid": "490f802d-a66b-4dca-aaa8-37cfdf47dc43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0419 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.5969
+                            },
+                            "uuid": "cd054704-32dc-4e1d-babf-fe7bfcaed4f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0423 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.7747
+                            },
+                            "uuid": "6d621854-a9ff-43f5-9aec-edc953b03237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0420 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.635
+                            },
+                            "uuid": "c3536b68-3eec-4382-858c-22f306d21cb6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0422 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.6985
+                            },
+                            "uuid": "a9bddf6e-0794-41f6-b359-7d084955bc3c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0421 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.6604
+                            },
+                            "uuid": "ab975d68-37a9-4b72-9c09-b1c26fd334ac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0425 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.8255
+                            },
+                            "uuid": "42e096dd-07a9-412f-8024-4b511633b034"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0424 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.8001
+                            },
+                            "uuid": "ca08b7db-81f5-4731-907f-78fa6c54ec24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0427 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.1176
+                            },
+                            "uuid": "ac3abb74-be60-4923-b53e-836fefeabefc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0428 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.1684
+                            },
+                            "uuid": "44b68fca-7c51-4e0e-8476-66f26b004d59"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0426 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 1.0668
+                            },
+                            "uuid": "ec93d9df-a66c-4215-8c11-63f6cb6da4ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both +10V and VDD2 are attached to the same items; +10V will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0401 Hidden pin 1 [+10V, Power input, Line]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.4318
+                            },
+                            "uuid": "3fac399b-86c2-4dcf-bee0-258717ceae4b"
+                        },
+                        {
+                            "description": "Label 'VDD2'",
+                            "pos": {
+                                "x": 1.778,
+                                "y": 0.4318
+                            },
+                            "uuid": "62822ba4-5d42-401e-902f-b9b81031c46d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Both VDD1 and 1.8V_LCD are attached to the same items; VDD1 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'VDD1'",
+                            "pos": {
+                                "x": 2.0828,
+                                "y": 1.143
+                            },
+                            "uuid": "1be9282f-e278-484d-bd8a-354e3571f6b9"
+                        },
+                        {
+                            "description": "Hierarchical Label '1.8V_LCD'",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 0.3429
+                            },
+                            "uuid": "6a2f78c5-5d6b-4acf-91fb-ef76c1dae9e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C411 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.635
+                            },
+                            "uuid": "fbdb1bc5-0d47-48b8-b7f5-e7fa83ee1d22"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C409 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.5969
+                            },
+                            "uuid": "306744cd-e525-44bf-960e-f53857218e65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C410 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.5969
+                            },
+                            "uuid": "f1aecfb7-85da-4967-a5c3-37031fccd7e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C407 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.5969
+                            },
+                            "uuid": "0790e0b7-cc2f-4c62-b1ab-10049e804fc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C412 [C_0402_1uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.6604
+                            },
+                            "uuid": "50c4ba5b-e416-4cf7-a39a-c28acee98ad7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C414 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.6985
+                            },
+                            "uuid": "71042e96-43f0-455a-99c2-21c14d6a9761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C413 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 0.6985
+                            },
+                            "uuid": "034db2ee-0b1a-4fc4-94be-5d9051359a76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C404 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.4318
+                            },
+                            "uuid": "62eb419e-d1db-4262-9d97-72bb7d7ee208"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C401 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 0.4318
+                            },
+                            "uuid": "c82df6f2-0428-491e-9ad3-6d1a9b7e8841"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0402 [+3.3V]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.381
+                            },
+                            "uuid": "6aa54cd7-dc4e-4a91-931a-1c039c089d1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0403 [GND]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 0.6604
+                            },
+                            "uuid": "cd87b40c-0c47-4be0-bf7d-8df7617b967d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0404 [+3.3V]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.7874
+                            },
+                            "uuid": "c5a0eebc-7c02-4c9f-98f0-883d9a3d9e5c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0408 [GND]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.6604
+                            },
+                            "uuid": "d6a6270e-112d-43b7-b6e2-5d95c4c6e672"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0411 [GND]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.6604
+                            },
+                            "uuid": "4dd05ddf-415f-42d1-af8c-1b2b6fd09f35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Both +1V8 and 1.8V are attached to the same items; +1V8 will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0416 Hidden pin 1 [+1V8, Power input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.2065
+                            },
+                            "uuid": "2b58dbe0-1ecc-4cd4-8e6e-516d060bea78"
+                        },
+                        {
+                            "description": "Label '1.8V'",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.381
+                            },
+                            "uuid": "08a89365-87ff-4f04-bdae-9b791ed29b7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U401 [U_TXS0108ERGYR]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.508
+                            },
+                            "uuid": "3157dec7-e687-4b50-8aee-f92c535ae21d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U402 [U_TXS0108ERGYR]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.9144
+                            },
+                            "uuid": "063be6ff-5e80-4de3-84f1-3e55e724cc43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C405 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.8382
+                            },
+                            "uuid": "c7f2ed9e-e8c8-4c29-a5c0-a2fad31a104d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0409 [GND]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.0668
+                            },
+                            "uuid": "8b1e1f4f-2dca-4100-bf28-a252f4cd0292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0410 [GND]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.4859
+                            },
+                            "uuid": "729d3e21-e240-40b9-a861-44055aa4878c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U403 [U_TXS0108ERGYR]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.3335
+                            },
+                            "uuid": "e25a22a2-fff6-4543-99a0-807510efbd36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0412 [GND]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.0668
+                            },
+                            "uuid": "9f5519d7-1bdf-46e1-bcbb-7ac7ac110d2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0413 [GND]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.4859
+                            },
+                            "uuid": "262de5d8-1bb6-4517-b332-8f7e7773ec8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C406 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 1.2573
+                            },
+                            "uuid": "dae69291-9c18-4a74-8819-c381529f03bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+1V8' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0414 [+1V8]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.381
+                            },
+                            "uuid": "ae1954ea-69bb-47c7-8407-f755fcf3e6eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+1V8' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0416 [+1V8]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.2065
+                            },
+                            "uuid": "380bd202-394f-4f3a-95d2-23057ebee187"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+1V8' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0415 [+1V8]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.7874
+                            },
+                            "uuid": "64752bd5-631e-492c-a00a-4f69abaaa6ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C403 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.8382
+                            },
+                            "uuid": "80315dcb-b3c4-4e98-be97-dbfa027290ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0406 [GND]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 1.4859
+                            },
+                            "uuid": "f2bffa8a-a456-4f54-b1e2-26791ffc4d49"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0407 [GND]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 1.0668
+                            },
+                            "uuid": "23594298-e868-4825-b06c-27e0885672c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C402 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 1.2573
+                            },
+                            "uuid": "78c6626d-9360-461e-939f-ffe847e24d99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0405 [+3.3V]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.2065
+                            },
+                            "uuid": "98eea31f-3c05-4f19-958e-3697dc2ed965"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/User Input/",
+            "uuid_path": "/75b08848-9393-425e-a17d-60105119a7b1/2b4b9f93-a38b-41c6-bf78-4a8e57625d62",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R507 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.6256
+                            },
+                            "uuid": "84a2e799-45b2-4dbe-b65a-17ec1f398a8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0517 [GND]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.8542
+                            },
+                            "uuid": "8a0215a0-c8d9-4bfa-b0ea-e50da71793db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0529 [+3.3V]",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.4445
+                            },
+                            "uuid": "9dfe402d-da7a-4ffd-87ae-71fcdb7460a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U501 [U_VCNL4040M3OE]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 0.5207
+                            },
+                            "uuid": "484613e4-0547-4e20-b0ce-08ec9c3df445"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0520 [GND]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 0.6731
+                            },
+                            "uuid": "5cc27e2e-ca3e-480e-8f99-a1c8f7126c0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C504 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.4699
+                            },
+                            "uuid": "762cd45e-7964-4432-9d63-721e2c0240b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0530 [GND]",
+                            "pos": {
+                                "x": 1.8669,
+                                "y": 0.6731
+                            },
+                            "uuid": "800e4dce-a00b-44cf-b3a8-0121aaf0eb5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0524 [GND]",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.6731
+                            },
+                            "uuid": "2c46c81a-d1e8-4155-b249-7fd780fa19a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C501 [C_0603_2.2uF_10V_X7R_10%]",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.4953
+                            },
+                            "uuid": "2b52c452-0065-44e2-877a-f3d299547676"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol LED503 [LED_LTW-010DCG]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 1.6383
+                            },
+                            "uuid": "048975bf-578e-4eca-960f-840792a7a441"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol LED502 [LED_LTW-010DCG]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 1.5494
+                            },
+                            "uuid": "a11437da-ae45-4f70-b6fc-1e5ce61b608a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol Q501 [Q_BSS123WQ-7-F]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 1.7526
+                            },
+                            "uuid": "580de4fe-7ec2-4d0d-9fca-91668baed83a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R506 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 1.7907
+                            },
+                            "uuid": "132d3516-daf5-4af6-aa2b-8d1712ae4966"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0518 [GND]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 1.0922
+                            },
+                            "uuid": "6da7b815-35dd-42c8-a469-f1224b1aff74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0516 [+3.3V]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 1.4605
+                            },
+                            "uuid": "7c08c04a-c9c4-426a-bd44-35cad9176979"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U502 [U_MP34DT05TR-A]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.0541
+                            },
+                            "uuid": "297481e8-0337-4274-8b85-e13b262b0587"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0521 [GND]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.1557
+                            },
+                            "uuid": "31634353-5ea4-4dad-a2b8-d6e421820d65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0523 [GND]",
+                            "pos": {
+                                "x": 2.2352,
+                                "y": 1.1557
+                            },
+                            "uuid": "080b8fa6-db95-43ee-8ca6-e1e215266746"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0526 [GND]",
+                            "pos": {
+                                "x": 2.3241,
+                                "y": 1.1557
+                            },
+                            "uuid": "9cd884bc-458d-42a9-ab02-4f48dc168266"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol U503 [U_LIS2DW12]",
+                            "pos": {
+                                "x": 2.3114,
+                                "y": 0.508
+                            },
+                            "uuid": "fdc1cbdb-2646-4aec-8eff-849dff85e49e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0528 [GND]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.6477
+                            },
+                            "uuid": "0c118ac2-5948-416d-a273-8e9d634d0641"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0522 [GND]",
+                            "pos": {
+                                "x": 2.3114,
+                                "y": 0.6477
+                            },
+                            "uuid": "d06ca34e-a03d-4e79-bd2b-dac7e5821492"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0525 [+3.3V]",
+                            "pos": {
+                                "x": 2.3241,
+                                "y": 1.0033
+                            },
+                            "uuid": "89029fa2-ad45-4d99-83a5-e0cb8ed839a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C502 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.3241,
+                                "y": 1.0287
+                            },
+                            "uuid": "a6a02ee0-73c1-4c5c-a26d-d32a7cc64b73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R501 [R_0402_0R_1%_0.06W]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 1.2954
+                            },
+                            "uuid": "b300e082-e1fa-4190-b40b-eb7c6b41d31a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0508 Hidden pin 1 [+3.3V, Power input, Line]",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.9144
+                            },
+                            "uuid": "9e82aff8-a5d6-4cfd-8325-1ed9a121f8c8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D501 [D_SRV05-4]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.8255
+                            },
+                            "uuid": "4fc7e9ad-d938-4360-a84e-db91660f70b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0506 [GND]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.9525
+                            },
+                            "uuid": "45a0bfef-b048-4e54-b96a-154bba831a71"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0508 [+3.3V]",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 0.9144
+                            },
+                            "uuid": "c97ea15e-d445-4b53-a609-45cedf730e10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0502 [GND]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.3462
+                            },
+                            "uuid": "89c8836d-2c69-4eea-a835-fa1251e8eb01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0501 [+3.3V]",
+                            "pos": {
+                                "x": 0.2921,
+                                "y": 1.3208
+                            },
+                            "uuid": "e115a666-f381-453e-892c-0936274c1bc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol J501 [J_0788641001_PAD]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.3208
+                            },
+                            "uuid": "eebed1f3-7e64-489a-a33b-18a292d9d3c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0507 [GND]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 1.2954
+                            },
+                            "uuid": "c7847352-5aa6-49ee-96a0-f1477fa46e6c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0510 [GND]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 1.3462
+                            },
+                            "uuid": "1c549c3d-f0c1-4a85-9e17-bea57e6e4014"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol J504 [J_0788641001_PAD]",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 1.3208
+                            },
+                            "uuid": "ca118d39-53bb-45d8-8269-5a9c3fc0ee7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'VBUS' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0509 [VBUS]",
+                            "pos": {
+                                "x": 0.635,
+                                "y": 1.3208
+                            },
+                            "uuid": "e4ede38b-b6e4-4579-bc9a-50fce049adb3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R505 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.4699
+                            },
+                            "uuid": "4952f8ad-8176-480f-a621-44a2f9fd7d1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0512 [+3.3V]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.4445
+                            },
+                            "uuid": "effaed7b-2368-44ec-9362-7b8f58d9875e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0513 [+3.3V]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.6985
+                            },
+                            "uuid": "cda0d2a2-2b80-4926-a223-c8c1a0c49ae1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol SW501 [SW_SKRTLAE010]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.9906
+                            },
+                            "uuid": "804b8cb4-4cfe-4764-8aca-50c2b35f3398"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0515 Hidden pin 1 [+3.3V, Power input, Line]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.9144
+                            },
+                            "uuid": "fa7b285d-72c9-403b-9b89-a2f6e8199dd1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Symbol 'GND' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0514 [GND]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.9525
+                            },
+                            "uuid": "de501c35-47ea-4c52-9347-7415c97d16ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0515 [+3.3V]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.9144
+                            },
+                            "uuid": "17cd4ee5-3711-428b-b8d3-a7c89d5510b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol D502 [D_SRV05-4]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8255
+                            },
+                            "uuid": "73af2f5b-7403-46dd-ac60-9c142ab52834"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0519 [+3.3V]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4445
+                            },
+                            "uuid": "2ee70649-79cf-4e8a-b18d-17e2107c5494"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0527 [+3.3V]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4445
+                            },
+                            "uuid": "73fb6b2f-7480-4e2c-a4a7-4da08f435578"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol C503 [C_0402_100nF_50V_X7R_10%]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4699
+                            },
+                            "uuid": "aebcc38f-0c21-4916-8d8f-a965013c1644"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0504 [+3.3V]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.4445
+                            },
+                            "uuid": "6433ec20-a1f2-428b-bfd7-d7b046d1a4f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R503 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.4699
+                            },
+                            "uuid": "66030971-f1d7-4cd0-8fba-884e9da2cacd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0505 [+3.3V]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.6985
+                            },
+                            "uuid": "64d8637b-f062-4abc-8c40-6839ab0350a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0503 [+3.3V]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.2921
+                            },
+                            "uuid": "569b54af-86cc-41f6-beef-59002a8babfe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R502 [R_0402_10k_1%_0.06W]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.3175
+                            },
+                            "uuid": "a02d0df4-a06e-4cd4-884e-c65f42033478"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol '+3.3V' has been modified in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0511 [+3.3V]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.2921
+                            },
+                            "uuid": "a6c06ac6-bdc6-48bf-9d2d-89b258f4f9c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the library '.mounted-lib'",
+                    "items": [
+                        {
+                            "description": "Symbol R504 [R_0402_100k_1%_0.06W]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.3175
+                            },
+                            "uuid": "a8903742-5017-4cc8-bd1b-4f248266a53a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "Zoka-MainBoard.kicad_sch"
+}

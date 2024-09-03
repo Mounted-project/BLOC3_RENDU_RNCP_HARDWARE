@@ -1,0 +1,3406 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2024-09-02T19:36:58+0200",
+    "kicad_version": "8.0.4",
+    "schematic_parity": [],
+    "source": "Zoka-MainBoard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 183.265419,
+                        "y": 46.965131
+                    },
+                    "uuid": "0095bf83-8ad5-427e-baf3-925750ad8283"
+                },
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 184.176977,
+                        "y": 48.520145
+                    },
+                    "uuid": "491caf6d-ec7b-4f1c-af77-38b540884965"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 183.265419,
+                        "y": 46.965131
+                    },
+                    "uuid": "0095bf83-8ad5-427e-baf3-925750ad8283"
+                },
+                {
+                    "description": "Footprint R313",
+                    "pos": {
+                        "x": 183.359855,
+                        "y": 44.746784
+                    },
+                    "uuid": "49c76727-d96b-4ddf-9ee8-e6a38fb5fb46"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 183.265419,
+                        "y": 46.965131
+                    },
+                    "uuid": "0095bf83-8ad5-427e-baf3-925750ad8283"
+                },
+                {
+                    "description": "Footprint D302",
+                    "pos": {
+                        "x": 181.441537,
+                        "y": 45.652335
+                    },
+                    "uuid": "eafd3888-018f-428c-9c1a-66f1487cf383"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R307",
+                    "pos": {
+                        "x": 155.812992,
+                        "y": 95.443456
+                    },
+                    "uuid": "00a82985-157f-437d-8cb8-a0fdd0bc3b05"
+                },
+                {
+                    "description": "Footprint Q301",
+                    "pos": {
+                        "x": 158.512986,
+                        "y": 94.543462
+                    },
+                    "uuid": "916c7245-ed5e-4194-8277-55cbeecac8c1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint U501",
+                    "pos": {
+                        "x": 156.726136,
+                        "y": 81.794127
+                    },
+                    "uuid": "08a99522-3536-4a45-86f8-4f2cc541d502"
+                },
+                {
+                    "description": "Footprint C504",
+                    "pos": {
+                        "x": 154.726145,
+                        "y": 81.876627
+                    },
+                    "uuid": "dfe41e73-534d-45a2-8fdd-6c2ed7be6472"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q305",
+                    "pos": {
+                        "x": 184.835979,
+                        "y": 43.533897
+                    },
+                    "uuid": "0b8cadb9-eb2e-4673-b0cf-2e42778251f4"
+                },
+                {
+                    "description": "Footprint D201",
+                    "pos": {
+                        "x": 188.189465,
+                        "y": 45.395268
+                    },
+                    "uuid": "812bdf3f-8a7f-4101-98a8-740e1c2f3acd"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C301",
+                    "pos": {
+                        "x": 163.30049,
+                        "y": 97.643455
+                    },
+                    "uuid": "11c189f9-bb0a-4958-bf2b-5dbfe6f42c6d"
+                },
+                {
+                    "description": "Footprint U301",
+                    "pos": {
+                        "x": 160.262989,
+                        "y": 97.643456
+                    },
+                    "uuid": "adb6a875-629f-4ce5-a457-448bf607d798"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C304",
+                    "pos": {
+                        "x": 157.209634,
+                        "y": 97.643455
+                    },
+                    "uuid": "225bccfb-b72e-4d80-9d7c-60eaf737b42c"
+                },
+                {
+                    "description": "Footprint Q301",
+                    "pos": {
+                        "x": 158.512986,
+                        "y": 94.543462
+                    },
+                    "uuid": "916c7245-ed5e-4194-8277-55cbeecac8c1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C304",
+                    "pos": {
+                        "x": 157.209634,
+                        "y": 97.643455
+                    },
+                    "uuid": "225bccfb-b72e-4d80-9d7c-60eaf737b42c"
+                },
+                {
+                    "description": "Footprint Q302",
+                    "pos": {
+                        "x": 154.512984,
+                        "y": 97.64346
+                    },
+                    "uuid": "f9d74606-1b24-47b4-8a23-c45ac59dda53"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C407",
+                    "pos": {
+                        "x": 159.437986,
+                        "y": 108.823455
+                    },
+                    "uuid": "28b3ddc6-9228-477a-b196-a333a59e807d"
+                },
+                {
+                    "description": "Footprint C416",
+                    "pos": {
+                        "x": 160.437978,
+                        "y": 108.82346
+                    },
+                    "uuid": "d58a3753-73e0-4e99-bf25-9df6badaf1e8"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C407",
+                    "pos": {
+                        "x": 159.437986,
+                        "y": 108.823455
+                    },
+                    "uuid": "28b3ddc6-9228-477a-b196-a333a59e807d"
+                },
+                {
+                    "description": "Footprint C410",
+                    "pos": {
+                        "x": 158.43799,
+                        "y": 108.823453
+                    },
+                    "uuid": "d7aa8245-cce7-4d2f-b067-ccb6257d910e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R503",
+                    "pos": {
+                        "x": 153.701139,
+                        "y": 86.426629
+                    },
+                    "uuid": "2dc1598d-ec52-45a3-b420-9924fa29ecd5"
+                },
+                {
+                    "description": "Footprint R502",
+                    "pos": {
+                        "x": 153.442324,
+                        "y": 87.392552
+                    },
+                    "uuid": "9cdfc929-4213-4352-a7f0-0cc4ae5152c3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C412",
+                    "pos": {
+                        "x": 161.437985,
+                        "y": 108.823455
+                    },
+                    "uuid": "36153a78-048f-4780-a457-1f273215a89a"
+                },
+                {
+                    "description": "Footprint C415",
+                    "pos": {
+                        "x": 160.937982,
+                        "y": 106.82346
+                    },
+                    "uuid": "bca427f4-8874-4fb5-9ef4-d14515dd4767"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R306",
+                    "pos": {
+                        "x": 153.812989,
+                        "y": 95.443462
+                    },
+                    "uuid": "43d3adc2-846e-4074-a25d-85fcd7c22f90"
+                },
+                {
+                    "description": "Footprint Q302",
+                    "pos": {
+                        "x": 154.512984,
+                        "y": 97.64346
+                    },
+                    "uuid": "f9d74606-1b24-47b4-8a23-c45ac59dda53"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 184.176977,
+                        "y": 48.520145
+                    },
+                    "uuid": "491caf6d-ec7b-4f1c-af77-38b540884965"
+                },
+                {
+                    "description": "Footprint R308",
+                    "pos": {
+                        "x": 183.342136,
+                        "y": 49.070629
+                    },
+                    "uuid": "bd21913b-7c6d-46c7-88b7-7ba0e5fbaf3b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 184.176977,
+                        "y": 48.520145
+                    },
+                    "uuid": "491caf6d-ec7b-4f1c-af77-38b540884965"
+                },
+                {
+                    "description": "Footprint R323",
+                    "pos": {
+                        "x": 185.011823,
+                        "y": 47.969672
+                    },
+                    "uuid": "f9061c6f-cfd3-4d01-b12f-59fc4363607e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R313",
+                    "pos": {
+                        "x": 183.359855,
+                        "y": 44.746784
+                    },
+                    "uuid": "49c76727-d96b-4ddf-9ee8-e6a38fb5fb46"
+                },
+                {
+                    "description": "Footprint D302",
+                    "pos": {
+                        "x": 181.441537,
+                        "y": 45.652335
+                    },
+                    "uuid": "eafd3888-018f-428c-9c1a-66f1487cf383"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C404",
+                    "pos": {
+                        "x": 161.894909,
+                        "y": 106.809399
+                    },
+                    "uuid": "61514e9b-dc5d-4574-aec1-1116c9105994"
+                },
+                {
+                    "description": "Footprint C415",
+                    "pos": {
+                        "x": 160.937982,
+                        "y": 106.82346
+                    },
+                    "uuid": "bca427f4-8874-4fb5-9ef4-d14515dd4767"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q306",
+                    "pos": {
+                        "x": 177.535165,
+                        "y": 47.539362
+                    },
+                    "uuid": "6c23effb-a1c3-4181-8b13-43945274ff57"
+                },
+                {
+                    "description": "Footprint R316",
+                    "pos": {
+                        "x": 179.371828,
+                        "y": 46.328304
+                    },
+                    "uuid": "a4257426-4099-4299-94f1-be2d187840a1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [GND] of U402",
+                    "pos": {
+                        "x": 157.687987,
+                        "y": 101.918462
+                    },
+                    "uuid": "cd2a4460-5382-4186-91c8-60d868dc86f9"
+                },
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R303",
+                    "pos": {
+                        "x": 188.997785,
+                        "y": 48.089746
+                    },
+                    "uuid": "78bf55fc-7ef2-4d76-9243-80c14da393a1"
+                },
+                {
+                    "description": "Footprint D201",
+                    "pos": {
+                        "x": 188.189465,
+                        "y": 45.395268
+                    },
+                    "uuid": "812bdf3f-8a7f-4101-98a8-740e1c2f3acd"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint D201",
+                    "pos": {
+                        "x": 188.189465,
+                        "y": 45.395268
+                    },
+                    "uuid": "812bdf3f-8a7f-4101-98a8-740e1c2f3acd"
+                },
+                {
+                    "description": "Footprint R208",
+                    "pos": {
+                        "x": 187.900915,
+                        "y": 42.950325
+                    },
+                    "uuid": "a168ff54-2b72-4c15-afc2-2deccb81318d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C310",
+                    "pos": {
+                        "x": 188.936054,
+                        "y": 55.156356
+                    },
+                    "uuid": "826fc350-a111-45e8-814d-181862ba1d3d"
+                },
+                {
+                    "description": "Footprint C303",
+                    "pos": {
+                        "x": 190.783711,
+                        "y": 53.416999
+                    },
+                    "uuid": "9c5e676b-03b1-46c9-b920-05a266e45ef3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint Q301",
+                    "pos": {
+                        "x": 158.512986,
+                        "y": 94.543462
+                    },
+                    "uuid": "916c7245-ed5e-4194-8277-55cbeecac8c1"
+                },
+                {
+                    "description": "Footprint U301",
+                    "pos": {
+                        "x": 160.262989,
+                        "y": 97.643456
+                    },
+                    "uuid": "adb6a875-629f-4ce5-a457-448bf607d798"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [GND] of U401",
+                    "pos": {
+                        "x": 163.112989,
+                        "y": 103.469321
+                    },
+                    "uuid": "640b331a-45c0-42bc-9087-660c75cd3dac"
+                },
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [GND] of U401",
+                    "pos": {
+                        "x": 161.837989,
+                        "y": 102.694321
+                    },
+                    "uuid": "8ac80c91-d295-4ede-b6a6-d306bd1e827e"
+                },
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [GND] of U401",
+                    "pos": {
+                        "x": 164.387989,
+                        "y": 102.694321
+                    },
+                    "uuid": "c9f92abf-7801-41b1-aab9-f0eb9ca7c0f2"
+                },
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [GND] of U401",
+                    "pos": {
+                        "x": 163.112989,
+                        "y": 101.919321
+                    },
+                    "uuid": "8f03a455-f6e9-44df-8598-450d5c128f70"
+                },
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C415",
+                    "pos": {
+                        "x": 160.937982,
+                        "y": 106.82346
+                    },
+                    "uuid": "bca427f4-8874-4fb5-9ef4-d14515dd4767"
+                },
+                {
+                    "description": "Footprint C417",
+                    "pos": {
+                        "x": 159.937985,
+                        "y": 106.823454
+                    },
+                    "uuid": "e3a7d6bc-deb3-4bb0-a480-d8251e119be3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C316",
+                    "pos": {
+                        "x": 172.65685,
+                        "y": 72.331119
+                    },
+                    "uuid": "cca6cdb1-5d1d-4ad0-b347-ef2a7e6fe739"
+                },
+                {
+                    "description": "Footprint C315",
+                    "pos": {
+                        "x": 171.805126,
+                        "y": 71.807137
+                    },
+                    "uuid": "e4d42f8d-742b-4911-957a-c17af8526a78"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R310",
+                    "pos": {
+                        "x": 175.382852,
+                        "y": 68.512342
+                    },
+                    "uuid": "f80c0fcf-6b22-41d3-9e01-40c347269e08"
+                },
+                {
+                    "description": "Footprint Q303",
+                    "pos": {
+                        "x": 177.269745,
+                        "y": 69.64381
+                    },
+                    "uuid": "feb041af-8185-4f83-a0e7-9c8323883a62"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3995 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 150.728255,
+                        "y": 116.028448
+                    },
+                    "uuid": "4cbe87b7-5af0-44e8-8e34-113905dc5760"
+                },
+                {
+                    "description": "Via [/OLED/G3_1.8V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 156.176142,
+                        "y": 115.403947
+                    },
+                    "uuid": "667e3ce9-70c8-45f9-91ee-6ae5b91e73c6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A1 [GND] of J201 on F.Cu",
+                    "pos": {
+                        "x": 192.787839,
+                        "y": 46.356146
+                    },
+                    "uuid": "fb19c4d5-8fd8-476c-a4c4-f1b91771af96"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A4 [/MCU/VBUS_USB] of J201 on F.Cu",
+                    "pos": {
+                        "x": 192.347455,
+                        "y": 45.688268
+                    },
+                    "uuid": "b1200815-0c5d-4f4c-a11a-23d3e81dc395"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A5 [/MCU/CC1] of J201 on F.Cu",
+                    "pos": {
+                        "x": 191.63183,
+                        "y": 44.602966
+                    },
+                    "uuid": "b2794337-1a16-42c4-909e-4812f106ba16"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A6 [/MCU/USB_D+] of J201 on F.Cu",
+                    "pos": {
+                        "x": 191.081349,
+                        "y": 43.768118
+                    },
+                    "uuid": "00d4bd52-ae8f-4416-b561-d43788ef01cb"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A7 [/MCU/USB_D-] of J201 on F.Cu",
+                    "pos": {
+                        "x": 190.806109,
+                        "y": 43.350694
+                    },
+                    "uuid": "9247acc6-f93f-475e-8e3b-eee5fe213a09"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A8 [unconnected-(J201-SBU1-PadA8)] of J201 on F.Cu",
+                    "pos": {
+                        "x": 190.255628,
+                        "y": 42.515846
+                    },
+                    "uuid": "f45f59f5-67e3-4bf4-9e4e-17b5f4cad60c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A9 [/MCU/VBUS_USB] of J201 on F.Cu",
+                    "pos": {
+                        "x": 189.540003,
+                        "y": 41.430544
+                    },
+                    "uuid": "2a22deda-8c4c-414d-8e62-329835596245"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad A12 [GND] of J201 on F.Cu",
+                    "pos": {
+                        "x": 189.099618,
+                        "y": 40.762666
+                    },
+                    "uuid": "724a1b4d-ae1c-41d0-83c3-659c5c381d00"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B1 [GND] of J201 on F.Cu",
+                    "pos": {
+                        "x": 189.264763,
+                        "y": 41.01312
+                    },
+                    "uuid": "fae36d07-73e1-4cef-9c28-527a9a40e964"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B4 [/MCU/VBUS_USB] of J201 on F.Cu",
+                    "pos": {
+                        "x": 189.705147,
+                        "y": 41.680998
+                    },
+                    "uuid": "f6b3612d-2917-4e0b-8e66-a4fd596feba8"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B5 [/MCU/CC2] of J201 on F.Cu",
+                    "pos": {
+                        "x": 189.980388,
+                        "y": 42.098422
+                    },
+                    "uuid": "932a36b7-5b98-44da-860f-6bf1c9989164"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B6 [/MCU/USB_D+] of J201 on F.Cu",
+                    "pos": {
+                        "x": 190.530868,
+                        "y": 42.93327
+                    },
+                    "uuid": "f63737c6-f76c-4b41-822f-4c12f4ba9834"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B7 [/MCU/USB_D-] of J201 on F.Cu",
+                    "pos": {
+                        "x": 191.356589,
+                        "y": 44.185542
+                    },
+                    "uuid": "760e9e4b-6e18-4419-9077-f76d7531d091"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B8 [unconnected-(J201-SBU2-PadB8)] of J201 on F.Cu",
+                    "pos": {
+                        "x": 191.90707,
+                        "y": 45.02039
+                    },
+                    "uuid": "eb20ce7e-cac0-40d3-9eb8-c45185c556c3"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B9 [/MCU/VBUS_USB] of J201 on F.Cu",
+                    "pos": {
+                        "x": 192.18231,
+                        "y": 45.437814
+                    },
+                    "uuid": "04e6da4e-59e7-4285-abb3-b0c074ba5b95"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "Pad B12 [GND] of J201 on F.Cu",
+                    "pos": {
+                        "x": 192.622695,
+                        "y": 46.105692
+                    },
+                    "uuid": "a84cd180-669b-4282-8ec0-30edd90f02fd"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "PTH pad GND [GND] of J201",
+                    "pos": {
+                        "x": 194.930718,
+                        "y": 47.662237
+                    },
+                    "uuid": "102142d0-e4e8-44bd-8ee0-b38281b9a85b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 199.544372,
+                        "y": 43.577986
+                    },
+                    "uuid": "8ee10824-e57a-4445-a3ff-b55c913035ba"
+                },
+                {
+                    "description": "PTH pad GND [GND] of J201",
+                    "pos": {
+                        "x": 198.270109,
+                        "y": 45.460314
+                    },
+                    "uuid": "9f90aa69-c4a7-44c0-8c06-21189f321fc9"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 194.11786,
+                        "y": 47.156111
+                    },
+                    "uuid": "ad66c045-26c1-4416-a370-5101ddcaca1c"
+                },
+                {
+                    "description": "PTH pad GND [GND] of J201",
+                    "pos": {
+                        "x": 188.743314,
+                        "y": 38.278547
+                    },
+                    "uuid": "9fac3120-3d3b-45bc-aeb9-7564610ade54"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 188.888293,
+                        "y": 39.225056
+                    },
+                    "uuid": "d5873061-5a7a-4bfb-9c72-1f92e1af4c10"
+                },
+                {
+                    "description": "PTH pad GND [GND] of J201",
+                    "pos": {
+                        "x": 192.082706,
+                        "y": 36.076624
+                    },
+                    "uuid": "33c0b43a-454b-4dff-aee0-903f33135b6f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0845 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 246.80154,
+                        "y": 115.15904
+                    },
+                    "uuid": "7dfe884c-69b7-4fab-b3e0-197d41861b8c"
+                },
+                {
+                    "description": "Pad 3 [GND] of SW501 on F.Cu",
+                    "pos": {
+                        "x": 179.706046,
+                        "y": 40.191471
+                    },
+                    "uuid": "e7c184ff-aaf2-488d-8eef-18e390bb2285"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.1295 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 246.80154,
+                        "y": 115.15904
+                    },
+                    "uuid": "7dfe884c-69b7-4fab-b3e0-197d41861b8c"
+                },
+                {
+                    "description": "Pad 3 [GND] of SW501 on F.Cu",
+                    "pos": {
+                        "x": 177.01772,
+                        "y": 42.733694
+                    },
+                    "uuid": "debea61e-61fa-425c-83a5-a7646d258758"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2323 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 246.80154,
+                        "y": 115.15904
+                    },
+                    "uuid": "7dfe884c-69b7-4fab-b3e0-197d41861b8c"
+                },
+                {
+                    "description": "Pad 1 [Net-(U201-EN)] of TP201 on B.Cu",
+                    "pos": {
+                        "x": 147.637987,
+                        "y": 100.943458
+                    },
+                    "uuid": "44321bfc-1890-4a74-8737-8a0f5736ad87"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U303",
+                    "pos": {
+                        "x": 186.487102,
+                        "y": 51.578575
+                    },
+                    "uuid": "4f286bf8-a9c1-495e-911b-ff415e772760"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U402",
+                    "pos": {
+                        "x": 157.687987,
+                        "y": 102.693462
+                    },
+                    "uuid": "71c39cb0-2e6a-4ead-bb0a-824112f57440"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U305",
+                    "pos": {
+                        "x": 169.0401,
+                        "y": 68.667825
+                    },
+                    "uuid": "a9fc0822-7afa-4650-aa3f-4533fb3b4bc8"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U401",
+                    "pos": {
+                        "x": 163.112989,
+                        "y": 102.694321
+                    },
+                    "uuid": "b318545e-5c62-4b36-91e0-c0d5061bea28"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U403",
+                    "pos": {
+                        "x": 152.287986,
+                        "y": 102.693457
+                    },
+                    "uuid": "b60b9b65-4686-4dec-a74e-73c79417eed0"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint U304",
+                    "pos": {
+                        "x": 176.252892,
+                        "y": 62.443609
+                    },
+                    "uuid": "cdad2ec1-5ddb-4b86-ba63-723996ff7d54"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')",
+            "items": [
+                {
+                    "description": "Footprint J201",
+                    "pos": {
+                        "x": 196.929588,
+                        "y": 39.612459
+                    },
+                    "uuid": "d537d458-5932-4c3e-baf9-0a810924247a"
+                }
+            ],
+            "severity": "error",
+            "type": "footprint_type_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 183.265419,
+                        "y": 46.965131
+                    },
+                    "uuid": "0095bf83-8ad5-427e-baf3-925750ad8283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R307",
+                    "pos": {
+                        "x": 155.812992,
+                        "y": 95.443456
+                    },
+                    "uuid": "00a82985-157f-437d-8cb8-a0fdd0bc3b05"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint L302",
+                    "pos": {
+                        "x": 184.739405,
+                        "y": 57.189275
+                    },
+                    "uuid": "051ad917-437a-4c77-ac94-6e881c82d855"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C320",
+                    "pos": {
+                        "x": 159.472709,
+                        "y": 69.677267
+                    },
+                    "uuid": "05c320b3-266a-4b40-ae53-9c724197074b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R315",
+                    "pos": {
+                        "x": 179.229345,
+                        "y": 56.351758
+                    },
+                    "uuid": "065aa32f-0e56-428d-a4d8-6428b061ecc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U501",
+                    "pos": {
+                        "x": 156.726136,
+                        "y": 81.794127
+                    },
+                    "uuid": "08a99522-3536-4a45-86f8-4f2cc541d502"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D301",
+                    "pos": {
+                        "x": 178.251318,
+                        "y": 51.259525
+                    },
+                    "uuid": "0ab4ea37-012d-4a90-be45-ddd77a5ed3af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q305",
+                    "pos": {
+                        "x": 184.835979,
+                        "y": 43.533897
+                    },
+                    "uuid": "0b8cadb9-eb2e-4673-b0cf-2e42778251f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R506",
+                    "pos": {
+                        "x": 149.012984,
+                        "y": 106.368457
+                    },
+                    "uuid": "0c4eb1af-9d60-456c-b576-c2a0d599b1bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R206",
+                    "pos": {
+                        "x": 159.37853,
+                        "y": 83.803822
+                    },
+                    "uuid": "0f17a917-a1fc-4618-8424-b5e7f265a080"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R205",
+                    "pos": {
+                        "x": 160.17853,
+                        "y": 84.861956
+                    },
+                    "uuid": "10fb4a53-a4e5-4232-982a-f99e536833ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint LED502",
+                    "pos": {
+                        "x": 147.187987,
+                        "y": 104.56846
+                    },
+                    "uuid": "111c3904-d9ad-42fa-a76a-6f68e76822d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C301",
+                    "pos": {
+                        "x": 163.30049,
+                        "y": 97.643455
+                    },
+                    "uuid": "11c189f9-bb0a-4958-bf2b-5dbfe6f42c6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C321",
+                    "pos": {
+                        "x": 161.883042,
+                        "y": 65.759329
+                    },
+                    "uuid": "1af8c17a-6c67-4f06-90db-e8200dc34397"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D501",
+                    "pos": {
+                        "x": 184.101141,
+                        "y": 39.926628
+                    },
+                    "uuid": "1dc34259-952e-4d87-a626-c96f576d1126"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C402",
+                    "pos": {
+                        "x": 150.626143,
+                        "y": 99.251631
+                    },
+                    "uuid": "220fc1ec-34cf-4b8d-b59a-b11280cc1e6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C304",
+                    "pos": {
+                        "x": 157.209634,
+                        "y": 97.643455
+                    },
+                    "uuid": "225bccfb-b72e-4d80-9d7c-60eaf737b42c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C306",
+                    "pos": {
+                        "x": 180.209025,
+                        "y": 60.453643
+                    },
+                    "uuid": "2260099c-61cc-4a1d-8aaf-e4c0e1bfb09f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C407",
+                    "pos": {
+                        "x": 159.437986,
+                        "y": 108.823455
+                    },
+                    "uuid": "28b3ddc6-9228-477a-b196-a333a59e807d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R314",
+                    "pos": {
+                        "x": 186.962234,
+                        "y": 42.371449
+                    },
+                    "uuid": "292cf7fb-ca48-4e8e-a449-bcdff867fa84"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C401",
+                    "pos": {
+                        "x": 161.412985,
+                        "y": 99.993457
+                    },
+                    "uuid": "2b379c76-a912-456d-b3a7-9ba00109c80f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R503",
+                    "pos": {
+                        "x": 153.701139,
+                        "y": 86.426629
+                    },
+                    "uuid": "2dc1598d-ec52-45a3-b420-9924fa29ecd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R507",
+                    "pos": {
+                        "x": 147.787989,
+                        "y": 111.293458
+                    },
+                    "uuid": "2f3a2411-efb2-4018-994d-b5986ec0e979"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C412",
+                    "pos": {
+                        "x": 161.437985,
+                        "y": 108.823455
+                    },
+                    "uuid": "36153a78-048f-4780-a457-1f273215a89a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint J401",
+                    "pos": {
+                        "x": 156.89058,
+                        "y": 111.956793
+                    },
+                    "uuid": "39c469ad-54ed-43f8-bb59-e6485e5dc150"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R321",
+                    "pos": {
+                        "x": 161.15343,
+                        "y": 63.786564
+                    },
+                    "uuid": "3adb3dbf-0c59-4ca3-8295-91a02076058b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U202",
+                    "pos": {
+                        "x": 163.226144,
+                        "y": 89.001629
+                    },
+                    "uuid": "3f412afd-2289-4d6b-96f9-b24d441c4245"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R306",
+                    "pos": {
+                        "x": 153.812989,
+                        "y": 95.443462
+                    },
+                    "uuid": "43d3adc2-846e-4074-a25d-85fcd7c22f90"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C414",
+                    "pos": {
+                        "x": 164.737989,
+                        "y": 111.948455
+                    },
+                    "uuid": "43ff650e-7874-4bd0-8670-d2f6d0bef9cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R319",
+                    "pos": {
+                        "x": 172.39575,
+                        "y": 69.587505
+                    },
+                    "uuid": "44e86994-935d-4a02-9c16-cf2417816f26"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R202",
+                    "pos": {
+                        "x": 167.943661,
+                        "y": 84.582395
+                    },
+                    "uuid": "457bd41e-3a0f-4dc9-b44d-45815b9e201b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C307",
+                    "pos": {
+                        "x": 179.029956,
+                        "y": 61.606812
+                    },
+                    "uuid": "45b50296-7985-49d5-85d0-30ab971c0801"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C204",
+                    "pos": {
+                        "x": 159.076134,
+                        "y": 89.751628
+                    },
+                    "uuid": "473629f9-5837-4866-851d-75b500e1317f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R304",
+                    "pos": {
+                        "x": 188.152165,
+                        "y": 48.653989
+                    },
+                    "uuid": "47e02b7d-d22a-47d9-bd30-fa92dac491ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 184.176977,
+                        "y": 48.520145
+                    },
+                    "uuid": "491caf6d-ec7b-4f1c-af77-38b540884965"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R313",
+                    "pos": {
+                        "x": 183.359855,
+                        "y": 44.746784
+                    },
+                    "uuid": "49c76727-d96b-4ddf-9ee8-e6a38fb5fb46"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U303",
+                    "pos": {
+                        "x": 186.487102,
+                        "y": 51.578575
+                    },
+                    "uuid": "4f286bf8-a9c1-495e-911b-ff415e772760"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 167.091936,
+                        "y": 84.058405
+                    },
+                    "uuid": "509f2c6b-7549-4de6-9284-6fc35631895a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R317",
+                    "pos": {
+                        "x": 182.945413,
+                        "y": 62.238763
+                    },
+                    "uuid": "5ab07cbc-f01b-48a0-a056-f17c3bf04212"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R324",
+                    "pos": {
+                        "x": 190.669108,
+                        "y": 51.084488
+                    },
+                    "uuid": "5ea4fa3f-7e5f-447b-8b9f-40172b3a97c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint LED503",
+                    "pos": {
+                        "x": 146.662983,
+                        "y": 109.743458
+                    },
+                    "uuid": "5ff134d9-746d-4f43-9404-f40d429ad94a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q501",
+                    "pos": {
+                        "x": 148.937989,
+                        "y": 108.568459
+                    },
+                    "uuid": "604a22e1-8a03-4298-a328-4d67f30348fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R501",
+                    "pos": {
+                        "x": 171.226144,
+                        "y": 83.226627
+                    },
+                    "uuid": "60c13f7d-3d23-4505-8759-b9ea320595c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C404",
+                    "pos": {
+                        "x": 161.894909,
+                        "y": 106.809399
+                    },
+                    "uuid": "61514e9b-dc5d-4574-aec1-1116c9105994"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 171.459432,
+                        "y": 54.719798
+                    },
+                    "uuid": "626c6f0c-6da6-45a7-b048-d3ccd68b96bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint RT301",
+                    "pos": {
+                        "x": 180.662025,
+                        "y": 48.693729
+                    },
+                    "uuid": "68c0f130-4495-4066-82c7-fbd445813e74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q306",
+                    "pos": {
+                        "x": 177.535165,
+                        "y": 47.539362
+                    },
+                    "uuid": "6c23effb-a1c3-4181-8b13-43945274ff57"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 166.240206,
+                        "y": 83.534422
+                    },
+                    "uuid": "6f9a059d-7bc6-476f-85d3-5c031f0af475"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U402",
+                    "pos": {
+                        "x": 157.687987,
+                        "y": 102.693462
+                    },
+                    "uuid": "71c39cb0-2e6a-4ead-bb0a-824112f57440"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R303",
+                    "pos": {
+                        "x": 188.997785,
+                        "y": 48.089746
+                    },
+                    "uuid": "78bf55fc-7ef2-4d76-9243-80c14da393a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R201",
+                    "pos": {
+                        "x": 149.889771,
+                        "y": 94.445637
+                    },
+                    "uuid": "7d65b42f-667d-49dc-a311-6d9636136627"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C409",
+                    "pos": {
+                        "x": 156.962987,
+                        "y": 108.818457
+                    },
+                    "uuid": "7ecdd138-750b-4411-b60b-894eb52dba80"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C322",
+                    "pos": {
+                        "x": 163.84201,
+                        "y": 66.964494
+                    },
+                    "uuid": "8074d9b1-063d-476b-a221-813422aa0fae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D201",
+                    "pos": {
+                        "x": 188.189465,
+                        "y": 45.395268
+                    },
+                    "uuid": "812bdf3f-8a7f-4101-98a8-740e1c2f3acd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint H101",
+                    "pos": {
+                        "x": 157.833956,
+                        "y": 75.041091
+                    },
+                    "uuid": "819a6d49-8358-4e25-b905-35f4d15a536b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C310",
+                    "pos": {
+                        "x": 188.936054,
+                        "y": 55.156356
+                    },
+                    "uuid": "826fc350-a111-45e8-814d-181862ba1d3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C308",
+                    "pos": {
+                        "x": 187.823223,
+                        "y": 55.830241
+                    },
+                    "uuid": "829cfeb2-ad6a-4b59-bcff-66ed926fea96"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q307",
+                    "pos": {
+                        "x": 181.342701,
+                        "y": 63.804632
+                    },
+                    "uuid": "833c5037-aea3-4c62-a43c-ed9c6b53635d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 150.99496,
+                        "y": 96.121699
+                    },
+                    "uuid": "8810dcc1-a21a-4abd-a9da-5263a861c86c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'LGA-12_2x2mm_P0.5mm' does not match copy in library 'Package_LGA'.",
+            "items": [
+                {
+                    "description": "Footprint U503",
+                    "pos": {
+                        "x": 159.651139,
+                        "y": 81.95663
+                    },
+                    "uuid": "90737aa8-f7d8-4c1a-8453-55f0bb4c626a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C408",
+                    "pos": {
+                        "x": 152.162985,
+                        "y": 108.818455
+                    },
+                    "uuid": "90ce92b6-c2d3-424a-beb4-7dfaa7b74eec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q301",
+                    "pos": {
+                        "x": 158.512986,
+                        "y": 94.543462
+                    },
+                    "uuid": "916c7245-ed5e-4194-8277-55cbeecac8c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C317",
+                    "pos": {
+                        "x": 170.953397,
+                        "y": 71.283149
+                    },
+                    "uuid": "928a35c3-4753-40d8-9dea-037f97cd3f35"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C312",
+                    "pos": {
+                        "x": 183.478009,
+                        "y": 54.281408
+                    },
+                    "uuid": "93a23d4b-d0fd-42c9-b874-2160d281ad1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C413",
+                    "pos": {
+                        "x": 149.037989,
+                        "y": 111.743465
+                    },
+                    "uuid": "95ba2593-cc9e-4e38-aa06-6ab473400fb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U302",
+                    "pos": {
+                        "x": 184.358779,
+                        "y": 61.153503
+                    },
+                    "uuid": "97e87d46-4473-4b24-8997-d704314a3b40"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C302",
+                    "pos": {
+                        "x": 189.395311,
+                        "y": 49.631024
+                    },
+                    "uuid": "993dd02e-ecba-4863-93b4-bc32bd57305d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C501",
+                    "pos": {
+                        "x": 153.426134,
+                        "y": 81.951628
+                    },
+                    "uuid": "99e178d2-d8ec-4564-ad49-ac97a8141809"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C303",
+                    "pos": {
+                        "x": 190.783711,
+                        "y": 53.416999
+                    },
+                    "uuid": "9c5e676b-03b1-46c9-b920-05a266e45ef3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R502",
+                    "pos": {
+                        "x": 153.442324,
+                        "y": 87.392552
+                    },
+                    "uuid": "9cdfc929-4213-4352-a7f0-0cc4ae5152c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D502",
+                    "pos": {
+                        "x": 172.384642,
+                        "y": 78.890442
+                    },
+                    "uuid": "9d5b94de-0e59-481a-86c7-b2aacf6b49ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint F301",
+                    "pos": {
+                        "x": 179.931191,
+                        "y": 53.625539
+                    },
+                    "uuid": "9e3b1de0-05d1-4aad-8921-9ea115ddc725"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C311",
+                    "pos": {
+                        "x": 173.621164,
+                        "y": 64.83772
+                    },
+                    "uuid": "a08bc1fb-19b6-44dd-99de-b8a178d8c0d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R302",
+                    "pos": {
+                        "x": 185.846674,
+                        "y": 47.419188
+                    },
+                    "uuid": "a128cf8c-e593-4e2e-87c4-61f19a82c530"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R208",
+                    "pos": {
+                        "x": 187.900915,
+                        "y": 42.950325
+                    },
+                    "uuid": "a168ff54-2b72-4c15-afc2-2deccb81318d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C203",
+                    "pos": {
+                        "x": 149.3598,
+                        "y": 96.40899
+                    },
+                    "uuid": "a3e705b9-0843-444e-8e14-1472fb14fada"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R316",
+                    "pos": {
+                        "x": 179.371828,
+                        "y": 46.328304
+                    },
+                    "uuid": "a4257426-4099-4299-94f1-be2d187840a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R318",
+                    "pos": {
+                        "x": 175.910432,
+                        "y": 49.071842
+                    },
+                    "uuid": "a5af6348-3997-4a27-ada8-6771973dc3fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R312",
+                    "pos": {
+                        "x": 177.751955,
+                        "y": 71.947542
+                    },
+                    "uuid": "a7b8fb22-a291-4df6-828b-f6f3762fb59e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R504",
+                    "pos": {
+                        "x": 165.312985,
+                        "y": 97.468455
+                    },
+                    "uuid": "a9f2ef8a-4fb3-4110-8f6c-6ea17a7a9547"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U305",
+                    "pos": {
+                        "x": 169.0401,
+                        "y": 68.667825
+                    },
+                    "uuid": "a9fc0822-7afa-4650-aa3f-4533fb3b4bc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C318",
+                    "pos": {
+                        "x": 173.247477,
+                        "y": 70.111492
+                    },
+                    "uuid": "aaefb7a9-40f6-47d8-9fe9-62f90fd48a1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q304",
+                    "pos": {
+                        "x": 175.282048,
+                        "y": 73.606092
+                    },
+                    "uuid": "ab10f049-5036-430f-8886-2e05ea877bf9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U301",
+                    "pos": {
+                        "x": 160.262989,
+                        "y": 97.643456
+                    },
+                    "uuid": "adb6a875-629f-4ce5-a457-448bf607d798"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C403",
+                    "pos": {
+                        "x": 155.37853,
+                        "y": 99.993457
+                    },
+                    "uuid": "b2064909-8211-4310-8f82-147ed5e95738"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U401",
+                    "pos": {
+                        "x": 163.112989,
+                        "y": 102.694321
+                    },
+                    "uuid": "b318545e-5c62-4b36-91e0-c0d5061bea28"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U403",
+                    "pos": {
+                        "x": 152.287986,
+                        "y": 102.693457
+                    },
+                    "uuid": "b60b9b65-4686-4dec-a74e-73c79417eed0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C415",
+                    "pos": {
+                        "x": 160.937982,
+                        "y": 106.82346
+                    },
+                    "uuid": "bca427f4-8874-4fb5-9ef4-d14515dd4767"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R308",
+                    "pos": {
+                        "x": 183.342136,
+                        "y": 49.070629
+                    },
+                    "uuid": "bd21913b-7c6d-46c7-88b7-7ba0e5fbaf3b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C313",
+                    "pos": {
+                        "x": 171.951467,
+                        "y": 65.938678
+                    },
+                    "uuid": "c2dc753c-3212-4e5d-bcf2-b7d9e93e81c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R207",
+                    "pos": {
+                        "x": 190.299599,
+                        "y": 46.644531
+                    },
+                    "uuid": "c514bbda-0701-4a46-8fce-6cb8a5a811fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C503",
+                    "pos": {
+                        "x": 159.388457,
+                        "y": 80.025623
+                    },
+                    "uuid": "c62b6fe8-7d78-4b15-8b92-8cc28029bc56"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint LED201",
+                    "pos": {
+                        "x": 187.697464,
+                        "y": 35.74781
+                    },
+                    "uuid": "c6d75682-de42-4d54-ac4b-715ef5bb07ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D303",
+                    "pos": {
+                        "x": 165.834794,
+                        "y": 70.690051
+                    },
+                    "uuid": "c9f02663-9c88-4863-ba4f-3836f139f32f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C406",
+                    "pos": {
+                        "x": 151.062985,
+                        "y": 106.843456
+                    },
+                    "uuid": "cc3cbf8e-03ac-482b-b06f-4dfa697d1238"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R505",
+                    "pos": {
+                        "x": 166.312987,
+                        "y": 97.466694
+                    },
+                    "uuid": "cc9ffc1f-f65f-4a77-b11f-05086606244c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C316",
+                    "pos": {
+                        "x": 172.65685,
+                        "y": 72.331119
+                    },
+                    "uuid": "cca6cdb1-5d1d-4ad0-b347-ef2a7e6fe739"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U304",
+                    "pos": {
+                        "x": 176.252892,
+                        "y": 62.443609
+                    },
+                    "uuid": "cdad2ec1-5ddb-4b86-ba63-723996ff7d54"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C305",
+                    "pos": {
+                        "x": 185.706128,
+                        "y": 59.785959
+                    },
+                    "uuid": "d17da1b2-5ee0-4ff9-95c6-a500bb5c2ddb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C502",
+                    "pos": {
+                        "x": 154.126142,
+                        "y": 93.701628
+                    },
+                    "uuid": "d4a2abef-d129-41b6-8918-e0fa199bf8b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint J201",
+                    "pos": {
+                        "x": 196.929588,
+                        "y": 39.612459
+                    },
+                    "uuid": "d537d458-5932-4c3e-baf9-0a810924247a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C416",
+                    "pos": {
+                        "x": 160.437978,
+                        "y": 108.82346
+                    },
+                    "uuid": "d58a3753-73e0-4e99-bf25-9df6badaf1e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C410",
+                    "pos": {
+                        "x": 158.43799,
+                        "y": 108.823453
+                    },
+                    "uuid": "d7aa8245-cce7-4d2f-b067-ccb6257d910e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C411",
+                    "pos": {
+                        "x": 162.437984,
+                        "y": 108.823462
+                    },
+                    "uuid": "d881f083-8130-4414-aa04-6d215d9dae48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint H103",
+                    "pos": {
+                        "x": 197.826506,
+                        "y": 49.701445
+                    },
+                    "uuid": "d950e115-8022-4cea-a7ba-95f868fefe14"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C319",
+                    "pos": {
+                        "x": 161.431681,
+                        "y": 70.882437
+                    },
+                    "uuid": "d9e4eabe-20f8-4bb8-9731-465ac2af0324"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C309",
+                    "pos": {
+                        "x": 181.606368,
+                        "y": 51.442921
+                    },
+                    "uuid": "dc49071a-e325-4e6b-8aa3-4ba3c3cccfb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R305",
+                    "pos": {
+                        "x": 160.712986,
+                        "y": 94.943456
+                    },
+                    "uuid": "dc9062de-bb07-448b-bac0-6e6daf0e3d61"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R320",
+                    "pos": {
+                        "x": 160.105458,
+                        "y": 65.49002
+                    },
+                    "uuid": "ddad9499-1a90-4a59-a937-5caf728fdf8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R311",
+                    "pos": {
+                        "x": 175.897813,
+                        "y": 71.133823
+                    },
+                    "uuid": "dea8cc82-4526-4d21-9bfa-556caeb9b95f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C504",
+                    "pos": {
+                        "x": 154.726145,
+                        "y": 81.876627
+                    },
+                    "uuid": "dfe41e73-534d-45a2-8fdd-6c2ed7be6472"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C405",
+                    "pos": {
+                        "x": 155.076139,
+                        "y": 105.901633
+                    },
+                    "uuid": "e130b669-ba79-4eb6-ad2c-e8bb8d06e31e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint L301",
+                    "pos": {
+                        "x": 178.473997,
+                        "y": 65.830251
+                    },
+                    "uuid": "e1fcf711-e93e-451a-bf6c-a8c399e32f74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C417",
+                    "pos": {
+                        "x": 159.937985,
+                        "y": 106.823454
+                    },
+                    "uuid": "e3a7d6bc-deb3-4bb0-a480-d8251e119be3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C315",
+                    "pos": {
+                        "x": 171.805126,
+                        "y": 71.807137
+                    },
+                    "uuid": "e4d42f8d-742b-4911-957a-c17af8526a78"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C314",
+                    "pos": {
+                        "x": 181.808303,
+                        "y": 55.382371
+                    },
+                    "uuid": "e6450f5d-bd3f-4f07-9b95-8a2231fd75af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint L303",
+                    "pos": {
+                        "x": 164.637989,
+                        "y": 76.068456
+                    },
+                    "uuid": "e7b18190-802e-43a1-8fd5-9790fd8009d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U502",
+                    "pos": {
+                        "x": 154.076141,
+                        "y": 90.776629
+                    },
+                    "uuid": "e90181fb-b2ed-4918-8fa0-69b98cf9f337"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D302",
+                    "pos": {
+                        "x": 181.441537,
+                        "y": 45.652335
+                    },
+                    "uuid": "eafd3888-018f-428c-9c1a-66f1487cf383"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R310",
+                    "pos": {
+                        "x": 175.382852,
+                        "y": 68.512342
+                    },
+                    "uuid": "f80c0fcf-6b22-41d3-9e01-40c347269e08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 149.450876,
+                        "y": 97.994248
+                    },
+                    "uuid": "f88fc554-d6a4-40b0-8508-c291ea58a5b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint R323",
+                    "pos": {
+                        "x": 185.011823,
+                        "y": 47.969672
+                    },
+                    "uuid": "f9061c6f-cfd3-4d01-b12f-59fc4363607e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q302",
+                    "pos": {
+                        "x": 154.512984,
+                        "y": 97.64346
+                    },
+                    "uuid": "f9d74606-1b24-47b4-8a23-c45ac59dda53"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint SW501",
+                    "pos": {
+                        "x": 179.083325,
+                        "y": 42.225486
+                    },
+                    "uuid": "fcff1dcd-775a-4e91-a659-aa8677fce565"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint Q303",
+                    "pos": {
+                        "x": 177.269745,
+                        "y": 69.64381
+                    },
+                    "uuid": "feb041af-8185-4f83-a0e7-9c8323883a62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint D202",
+                    "pos": {
+                        "x": 191.766218,
+                        "y": 49.175682
+                    },
+                    "uuid": "ff224458-3cb9-4170-bd8b-be39711169c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint TP202",
+                    "pos": {
+                        "x": 171.012983,
+                        "y": 83.19346
+                    },
+                    "uuid": "1bd4ed52-7702-4fcd-8e5b-e953494a6980"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint LOGO101",
+                    "pos": {
+                        "x": 164.643827,
+                        "y": 75.86587
+                    },
+                    "uuid": "1f213168-b221-4d75-a4dc-096e944eada6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 159.284447,
+                        "y": 92.236198
+                    },
+                    "uuid": "4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.",
+            "items": [
+                {
+                    "description": "Footprint JP401",
+                    "pos": {
+                        "x": 157.543827,
+                        "y": 114.215871
+                    },
+                    "uuid": "54f98807-708d-4de9-88b9-987750255954"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.",
+            "items": [
+                {
+                    "description": "Footprint JP402",
+                    "pos": {
+                        "x": 155.043827,
+                        "y": 114.217658
+                    },
+                    "uuid": "b4192942-7671-4dec-9963-d298b76ac2f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint J504",
+                    "pos": {
+                        "x": 184.242994,
+                        "y": 40.162622
+                    },
+                    "uuid": "ca150b93-7baf-45b7-a4e3-0c914d756e78"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint TP201",
+                    "pos": {
+                        "x": 147.637987,
+                        "y": 100.943458
+                    },
+                    "uuid": "d61c2d1d-fe13-49d5-8f1c-d2f2b86a9dee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the library '.mounted-lib'.",
+            "items": [
+                {
+                    "description": "Footprint J501",
+                    "pos": {
+                        "x": 172.021662,
+                        "y": 78.643458
+                    },
+                    "uuid": "ded53ede-974d-4dc4-ba66-cc863a059abc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.",
+            "items": [
+                {
+                    "description": "Footprint JP403",
+                    "pos": {
+                        "x": 152.543827,
+                        "y": 114.21587
+                    },
+                    "uuid": "f20b6219-6d1c-437f-8984-1c1537b4ab94"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

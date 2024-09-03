@@ -1,0 +1,656 @@
+** Drc report for Zoka-MainBoard.kicad_pcb **
+** Created on 2024-09-02T19:36:59+0200 **
+
+** Found 197 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(183.2654 mm, 46.9651 mm): Footprint R309
+    @(184.1770 mm, 48.5201 mm): Footprint R301
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(183.2654 mm, 46.9651 mm): Footprint R309
+    @(183.3599 mm, 44.7468 mm): Footprint R313
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(183.2654 mm, 46.9651 mm): Footprint R309
+    @(181.4415 mm, 45.6523 mm): Footprint D302
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(155.8130 mm, 95.4435 mm): Footprint R307
+    @(158.5130 mm, 94.5435 mm): Footprint Q301
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(156.7261 mm, 81.7941 mm): Footprint U501
+    @(154.7261 mm, 81.8766 mm): Footprint C504
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(184.8360 mm, 43.5339 mm): Footprint Q305
+    @(188.1895 mm, 45.3953 mm): Footprint D201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(163.3005 mm, 97.6435 mm): Footprint C301
+    @(160.2630 mm, 97.6435 mm): Footprint U301
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(157.2096 mm, 97.6435 mm): Footprint C304
+    @(158.5130 mm, 94.5435 mm): Footprint Q301
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(157.2096 mm, 97.6435 mm): Footprint C304
+    @(154.5130 mm, 97.6435 mm): Footprint Q302
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(159.4380 mm, 108.8235 mm): Footprint C407
+    @(160.4380 mm, 108.8235 mm): Footprint C416
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(159.4380 mm, 108.8235 mm): Footprint C407
+    @(158.4380 mm, 108.8235 mm): Footprint C410
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(153.7011 mm, 86.4266 mm): Footprint R503
+    @(153.4423 mm, 87.3926 mm): Footprint R502
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(161.4380 mm, 108.8235 mm): Footprint C412
+    @(160.9380 mm, 106.8235 mm): Footprint C415
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(153.8130 mm, 95.4435 mm): Footprint R306
+    @(154.5130 mm, 97.6435 mm): Footprint Q302
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(184.1770 mm, 48.5201 mm): Footprint R301
+    @(183.3421 mm, 49.0706 mm): Footprint R308
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(184.1770 mm, 48.5201 mm): Footprint R301
+    @(185.0118 mm, 47.9697 mm): Footprint R323
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(183.3599 mm, 44.7468 mm): Footprint R313
+    @(181.4415 mm, 45.6523 mm): Footprint D302
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(161.8949 mm, 106.8094 mm): Footprint C404
+    @(160.9380 mm, 106.8235 mm): Footprint C415
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(177.5352 mm, 47.5394 mm): Footprint Q306
+    @(179.3718 mm, 46.3283 mm): Footprint R316
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(157.6880 mm, 101.9185 mm): PTH pad 11 [GND] of U402
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(188.9978 mm, 48.0897 mm): Footprint R303
+    @(188.1895 mm, 45.3953 mm): Footprint D201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(188.1895 mm, 45.3953 mm): Footprint D201
+    @(187.9009 mm, 42.9503 mm): Footprint R208
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(188.9361 mm, 55.1564 mm): Footprint C310
+    @(190.7837 mm, 53.4170 mm): Footprint C303
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(158.5130 mm, 94.5435 mm): Footprint Q301
+    @(160.2630 mm, 97.6435 mm): Footprint U301
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(163.1130 mm, 103.4693 mm): PTH pad 11 [GND] of U401
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(161.8380 mm, 102.6943 mm): PTH pad 11 [GND] of U401
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(164.3880 mm, 102.6943 mm): PTH pad 11 [GND] of U401
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(163.1130 mm, 101.9193 mm): PTH pad 11 [GND] of U401
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(160.9380 mm, 106.8235 mm): Footprint C415
+    @(159.9380 mm, 106.8235 mm): Footprint C417
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(172.6568 mm, 72.3311 mm): Footprint C316
+    @(171.8051 mm, 71.8071 mm): Footprint C315
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(175.3829 mm, 68.5123 mm): Footprint R310
+    @(177.2697 mm, 69.6438 mm): Footprint Q303
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3995 mm)
+    Rule: board setup constraints edge; error
+    @(150.7283 mm, 116.0284 mm): Segment on Edge.Cuts
+    @(156.1761 mm, 115.4039 mm): Via [/OLED/G3_1.8V] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(192.7878 mm, 46.3561 mm): Pad A1 [GND] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(192.3475 mm, 45.6883 mm): Pad A4 [/MCU/VBUS_USB] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(191.6318 mm, 44.6030 mm): Pad A5 [/MCU/CC1] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(191.0813 mm, 43.7681 mm): Pad A6 [/MCU/USB_D+] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(190.8061 mm, 43.3507 mm): Pad A7 [/MCU/USB_D-] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(190.2556 mm, 42.5158 mm): Pad A8 [unconnected-(J201-SBU1-PadA8)] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(189.5400 mm, 41.4305 mm): Pad A9 [/MCU/VBUS_USB] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(189.0996 mm, 40.7627 mm): Pad A12 [GND] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(189.2648 mm, 41.0131 mm): Pad B1 [GND] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(189.7051 mm, 41.6810 mm): Pad B4 [/MCU/VBUS_USB] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(189.9804 mm, 42.0984 mm): Pad B5 [/MCU/CC2] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(190.5309 mm, 42.9333 mm): Pad B6 [/MCU/USB_D+] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(191.3566 mm, 44.1855 mm): Pad B7 [/MCU/USB_D-] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(191.9071 mm, 45.0204 mm): Pad B8 [unconnected-(J201-SBU2-PadB8)] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(192.1823 mm, 45.4378 mm): Pad B9 [/MCU/VBUS_USB] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0950 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(192.6227 mm, 46.1057 mm): Pad B12 [GND] of J201 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(194.9307 mm, 47.6622 mm): PTH pad GND [GND] of J201
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)
+    Rule: board setup constraints edge; error
+    @(199.5444 mm, 43.5780 mm): Segment on Edge.Cuts
+    @(198.2701 mm, 45.4603 mm): PTH pad GND [GND] of J201
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)
+    Rule: board setup constraints edge; error
+    @(194.1179 mm, 47.1561 mm): Segment on Edge.Cuts
+    @(188.7433 mm, 38.2785 mm): PTH pad GND [GND] of J201
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.3700 mm)
+    Rule: board setup constraints edge; error
+    @(188.8883 mm, 39.2251 mm): Segment on Edge.Cuts
+    @(192.0827 mm, 36.0766 mm): PTH pad GND [GND] of J201
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.0845 mm)
+    Rule: board setup constraints edge; error
+    @(246.8015 mm, 115.1590 mm): Arc on Edge.Cuts
+    @(179.7060 mm, 40.1915 mm): Pad 3 [GND] of SW501 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.1295 mm)
+    Rule: board setup constraints edge; error
+    @(246.8015 mm, 115.1590 mm): Arc on Edge.Cuts
+    @(177.0177 mm, 42.7337 mm): Pad 3 [GND] of SW501 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.4000 mm; actual 0.2323 mm)
+    Rule: board setup constraints edge; error
+    @(246.8015 mm, 115.1590 mm): Arc on Edge.Cuts
+    @(147.6380 mm, 100.9435 mm): Pad 1 [Net-(U201-EN)] of TP201 on B.Cu
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(186.4871 mm, 51.5786 mm): Footprint U303
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(157.6880 mm, 102.6935 mm): Footprint U402
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(169.0401 mm, 68.6678 mm): Footprint U305
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(163.1130 mm, 102.6943 mm): Footprint U401
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(152.2880 mm, 102.6935 mm): Footprint U403
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(176.2529 mm, 62.4436 mm): Footprint U304
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(196.9296 mm, 39.6125 mm): Footprint J201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(183.2654 mm, 46.9651 mm): Footprint R309
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(155.8130 mm, 95.4435 mm): Footprint R307
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.7394 mm, 57.1893 mm): Footprint L302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.4727 mm, 69.6773 mm): Footprint C320
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(179.2293 mm, 56.3518 mm): Footprint R315
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(156.7261 mm, 81.7941 mm): Footprint U501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(178.2513 mm, 51.2595 mm): Footprint D301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.8360 mm, 43.5339 mm): Footprint Q305
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(149.0130 mm, 106.3685 mm): Footprint R506
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.3785 mm, 83.8038 mm): Footprint R206
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.1785 mm, 84.8620 mm): Footprint R205
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(147.1880 mm, 104.5685 mm): Footprint LED502
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(163.3005 mm, 97.6435 mm): Footprint C301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.8830 mm, 65.7593 mm): Footprint C321
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.1011 mm, 39.9266 mm): Footprint D501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(150.6261 mm, 99.2516 mm): Footprint C402
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(157.2096 mm, 97.6435 mm): Footprint C304
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(180.2090 mm, 60.4536 mm): Footprint C306
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.4380 mm, 108.8235 mm): Footprint C407
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(186.9622 mm, 42.3714 mm): Footprint R314
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.4130 mm, 99.9935 mm): Footprint C401
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(153.7011 mm, 86.4266 mm): Footprint R503
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(147.7880 mm, 111.2935 mm): Footprint R507
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.4380 mm, 108.8235 mm): Footprint C412
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(156.8906 mm, 111.9568 mm): Footprint J401
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.1534 mm, 63.7866 mm): Footprint R321
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(163.2261 mm, 89.0016 mm): Footprint U202
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(153.8130 mm, 95.4435 mm): Footprint R306
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(164.7380 mm, 111.9485 mm): Footprint C414
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(172.3957 mm, 69.5875 mm): Footprint R319
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(167.9437 mm, 84.5824 mm): Footprint R202
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(179.0300 mm, 61.6068 mm): Footprint C307
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.0761 mm, 89.7516 mm): Footprint C204
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(188.1522 mm, 48.6540 mm): Footprint R304
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.1770 mm, 48.5201 mm): Footprint R301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(183.3599 mm, 44.7468 mm): Footprint R313
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(186.4871 mm, 51.5786 mm): Footprint U303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(167.0919 mm, 84.0584 mm): Footprint R203
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(182.9454 mm, 62.2388 mm): Footprint R317
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(190.6691 mm, 51.0845 mm): Footprint R324
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(146.6630 mm, 109.7435 mm): Footprint LED503
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(148.9380 mm, 108.5685 mm): Footprint Q501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(171.2261 mm, 83.2266 mm): Footprint R501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.8949 mm, 106.8094 mm): Footprint C404
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(171.4594 mm, 54.7198 mm): Footprint J301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(180.6620 mm, 48.6937 mm): Footprint RT301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(177.5352 mm, 47.5394 mm): Footprint Q306
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(166.2402 mm, 83.5344 mm): Footprint R204
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(157.6880 mm, 102.6935 mm): Footprint U402
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(188.9978 mm, 48.0897 mm): Footprint R303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(149.8898 mm, 94.4456 mm): Footprint R201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(156.9630 mm, 108.8185 mm): Footprint C409
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(163.8420 mm, 66.9645 mm): Footprint C322
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(188.1895 mm, 45.3953 mm): Footprint D201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(157.8340 mm, 75.0411 mm): Footprint H101
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(188.9361 mm, 55.1564 mm): Footprint C310
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(187.8232 mm, 55.8302 mm): Footprint C308
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(181.3427 mm, 63.8046 mm): Footprint Q307
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(150.9950 mm, 96.1217 mm): Footprint C202
+[lib_footprint_mismatch]: Footprint 'LGA-12_2x2mm_P0.5mm' does not match copy in library 'Package_LGA'.
+    Local override; warning
+    @(159.6511 mm, 81.9566 mm): Footprint U503
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(152.1630 mm, 108.8185 mm): Footprint C408
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(158.5130 mm, 94.5435 mm): Footprint Q301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(170.9534 mm, 71.2831 mm): Footprint C317
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(183.4780 mm, 54.2814 mm): Footprint C312
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(149.0380 mm, 111.7435 mm): Footprint C413
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.3588 mm, 61.1535 mm): Footprint U302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(189.3953 mm, 49.6310 mm): Footprint C302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(153.4261 mm, 81.9516 mm): Footprint C501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(190.7837 mm, 53.4170 mm): Footprint C303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(153.4423 mm, 87.3926 mm): Footprint R502
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(172.3846 mm, 78.8904 mm): Footprint D502
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(179.9312 mm, 53.6255 mm): Footprint F301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(173.6212 mm, 64.8377 mm): Footprint C311
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(185.8467 mm, 47.4192 mm): Footprint R302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(187.9009 mm, 42.9503 mm): Footprint R208
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(149.3598 mm, 96.4090 mm): Footprint C203
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(179.3718 mm, 46.3283 mm): Footprint R316
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(175.9104 mm, 49.0718 mm): Footprint R318
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(177.7520 mm, 71.9475 mm): Footprint R312
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(165.3130 mm, 97.4685 mm): Footprint R504
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(169.0401 mm, 68.6678 mm): Footprint U305
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(173.2475 mm, 70.1115 mm): Footprint C318
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(175.2820 mm, 73.6061 mm): Footprint Q304
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.2630 mm, 97.6435 mm): Footprint U301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(155.3785 mm, 99.9935 mm): Footprint C403
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(163.1130 mm, 102.6943 mm): Footprint U401
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(152.2880 mm, 102.6935 mm): Footprint U403
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.9380 mm, 106.8235 mm): Footprint C415
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(183.3421 mm, 49.0706 mm): Footprint R308
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(171.9515 mm, 65.9387 mm): Footprint C313
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(190.2996 mm, 46.6445 mm): Footprint R207
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.3885 mm, 80.0256 mm): Footprint C503
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(187.6975 mm, 35.7478 mm): Footprint LED201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(165.8348 mm, 70.6901 mm): Footprint D303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(151.0630 mm, 106.8435 mm): Footprint C406
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(166.3130 mm, 97.4667 mm): Footprint R505
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(172.6568 mm, 72.3311 mm): Footprint C316
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(176.2529 mm, 62.4436 mm): Footprint U304
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(185.7061 mm, 59.7860 mm): Footprint C305
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(154.1261 mm, 93.7016 mm): Footprint C502
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(196.9296 mm, 39.6125 mm): Footprint J201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.4380 mm, 108.8235 mm): Footprint C416
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(158.4380 mm, 108.8235 mm): Footprint C410
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(162.4380 mm, 108.8235 mm): Footprint C411
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(197.8265 mm, 49.7014 mm): Footprint H103
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(161.4317 mm, 70.8824 mm): Footprint C319
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(181.6064 mm, 51.4429 mm): Footprint C309
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.7130 mm, 94.9435 mm): Footprint R305
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(160.1055 mm, 65.4900 mm): Footprint R320
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(175.8978 mm, 71.1338 mm): Footprint R311
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(154.7261 mm, 81.8766 mm): Footprint C504
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(155.0761 mm, 105.9016 mm): Footprint C405
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(178.4740 mm, 65.8303 mm): Footprint L301
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.9380 mm, 106.8235 mm): Footprint C417
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(171.8051 mm, 71.8071 mm): Footprint C315
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(181.8083 mm, 55.3824 mm): Footprint C314
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(164.6380 mm, 76.0685 mm): Footprint L303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(154.0761 mm, 90.7766 mm): Footprint U502
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(181.4415 mm, 45.6523 mm): Footprint D302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(175.3829 mm, 68.5123 mm): Footprint R310
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(149.4509 mm, 97.9942 mm): Footprint C201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(185.0118 mm, 47.9697 mm): Footprint R323
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(154.5130 mm, 97.6435 mm): Footprint Q302
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(179.0833 mm, 42.2255 mm): Footprint SW501
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(177.2697 mm, 69.6438 mm): Footprint Q303
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(191.7662 mm, 49.1757 mm): Footprint D202
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(171.0130 mm, 83.1935 mm): Footprint TP202
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(164.6438 mm, 75.8659 mm): Footprint LOGO101
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(159.2844 mm, 92.2362 mm): Footprint U201
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(157.5438 mm, 114.2159 mm): Footprint JP401
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(155.0438 mm, 114.2177 mm): Footprint JP402
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(184.2430 mm, 40.1626 mm): Footprint J504
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(147.6380 mm, 100.9435 mm): Footprint TP201
+[lib_footprint_issues]: The current configuration does not include the library '.mounted-lib'.
+    Local override; warning
+    @(172.0217 mm, 78.6435 mm): Footprint J501
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(152.5438 mm, 114.2159 mm): Footprint JP403
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

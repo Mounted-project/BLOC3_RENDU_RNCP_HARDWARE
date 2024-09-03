@@ -1,0 +1,860 @@
+ERC report (2024-09-02T19:36:57+0200, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(231.1400 mm, 139.7000 mm): Symbol H101 [H_MOUNTING_HOLE_M1]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(208.2800 mm, 129.5400 mm): Symbol H103 [H_MOUNTING_HOLE_M1]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(227.3300 mm, 173.9900 mm): Symbol LOGO101 [mounted_logo]
+
+***** Sheet /MCU/
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(220.9800 mm, 118.1100 mm): Symbol #PWR0212 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(194.3100 mm, 90.1700 mm): Symbol #PWR0207 [+3.3V]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(238.7600 mm, 102.8700 mm): Symbol U202 Pin 22 [GPA5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(238.7600 mm, 105.4100 mm): Symbol U202 Pin 23 [GPA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(238.7600 mm, 107.9500 mm): Symbol U202 Pin 24 [GPA7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(238.7600 mm, 85.0900 mm): Symbol U202 Pin 4 [GPB7, Bidirectional, Line]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(220.9800 mm, 85.0900 mm): Symbol U202 [U_MCP23017T-E/ML]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(209.5500 mm, 54.6100 mm): Symbol #PWR0210 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(209.5500 mm, 52.0700 mm): Symbol C204 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(201.9300 mm, 46.9900 mm): Symbol #PWR0208 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(297.1800 mm, 133.3500 mm): Symbol D202 [D_V2FM10HM3/H]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(297.1800 mm, 152.4000 mm): Symbol J201 [J_TYPE-C-31-M-13]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(293.3700 mm, 175.2600 mm): Symbol #PWR0214 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(293.3700 mm, 172.7200 mm): Symbol R207 [R_0402_5.23k_1%_0.06W]
+[lib_symbol_issues]: Symbol 'VBUS' has been modified in library 'power'
+    ; warning
+    @(297.1800 mm, 128.2700 mm): Symbol #PWR0217 [VBUS]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(297.1800 mm, 95.2500 mm): Symbol D201 [D_SRV05-4]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(297.1800 mm, 107.9500 mm): Symbol #PWR0216 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(300.9900 mm, 175.2600 mm): Symbol #PWR0215 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(297.1800 mm, 163.8300 mm): Symbol #PWR0218 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(300.9900 mm, 172.7200 mm): Symbol R208 [R_0402_5.23k_1%_0.06W]
+[no_connect_connected]: A pin with a “no connection” flag is connected
+    ; warning
+    @(166.3700 mm, 105.4100 mm): Symbol U201 Pin 23 [GPIO21, Bidirectional, Line]
+    @(29.2100 mm, 97.7900 mm): No Connect
+[conflicting_netclasses]: Conflicting netclass assignments
+    ; error
+    @(-60.9600 mm, 224.7900 mm): Directive Label [Net Class DIsplay_Logic_Signals]
+    @(166.3700 mm, 118.1100 mm): Directive Label [Net Class Display_Video_Signals]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(120.6500 mm, 123.1900 mm): Symbol U201 Pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(120.6500 mm, 123.1900 mm): Symbol #PWR0206 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(120.6500 mm, 82.5500 mm): Symbol U201 [U_ESP32-S3-WROOM-1U-N16R8]
+[multiple_net_names]: Both BUS I2C and SCL are attached to the same items; BUS I2C will be used in the netlist
+    ; warning
+    @(-52.0700 mm, 163.8300 mm): Label 'BUS I2C'
+    @(171.4500 mm, 67.3100 mm): Label 'SCL'
+[no_connect_connected]: A pin with a “no connection” flag is connected
+    ; warning
+    @(166.3700 mm, 67.3100 mm): Symbol U201 Pin 38 [GPIO2/TOUCH2/ADC1_CH1, Bidirectional, Line]
+    @(29.2100 mm, 101.6000 mm): No Connect
+[no_connect_connected]: A pin with a “no connection” flag is connected
+    ; warning
+    @(166.3700 mm, 57.1500 mm): Symbol U201 Pin 13 [GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D-, Bidirectional, Line]
+    @(29.2100 mm, 90.1700 mm): No Connect
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(190.5000 mm, 27.9400 mm): Symbol #PWR0213 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(190.5000 mm, 30.4800 mm): Symbol R206 [R_0402_4.7k_1%_0.06W]
+[multiple_net_names]: Both Signaux USB and USB_D- are attached to the same items; Signaux USB will be used in the netlist
+    ; warning
+    @(29.2100 mm, 90.1700 mm): Label 'Signaux USB'
+    @(171.4500 mm, 57.1500 mm): Label 'USB_D-'
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(180.3400 mm, 62.2300 mm): Symbol TP202 [TESTPOINT_1.5MM]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(171.4500 mm, 27.9400 mm): Symbol #PWR0209 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(171.4500 mm, 30.4800 mm): Symbol R205 [R_0402_4.7k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(107.9500 mm, 30.4800 mm): Symbol C203 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(107.9500 mm, 33.0200 mm): Symbol #PWR0205 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(91.4400 mm, 33.0200 mm): Symbol #PWR0204 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(91.4400 mm, 30.4800 mm): Symbol C202 [C_0805_22uF_10V_XR7_20%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(78.7400 mm, 24.1300 mm): Symbol #PWR0203 [+3.3V]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(52.0700 mm, 40.6400 mm): Symbol #PWR0201 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(52.0700 mm, 43.1800 mm): Symbol R201 [R_0402_10k_1%_0.06W]
+[multiple_net_names]: Both ESP_POWER_EN and GPIO are attached to the same items; ESP_POWER_EN will be used in the netlist
+    ; warning
+    @(171.4500 mm, 49.5300 mm): Label 'ESP_POWER_EN'
+    @(29.2100 mm, 93.9800 mm): Label 'GPIO'
+[multiple_net_names]: Both R2 and Signaux Video Affichage are attached to the same items; R2 will be used in the netlist
+    ; warning
+    @(171.4500 mm, 46.9900 mm): Label 'R2'
+    @(29.2100 mm, 105.4100 mm): Label 'Signaux Video Affichage'
+[multiple_net_names]: Both MISO and Signaux SPI Affichage are attached to the same items; MISO will be used in the netlist
+    ; warning
+    @(-60.9600 mm, 179.0700 mm): Label 'MISO'
+    @(29.2100 mm, 109.2200 mm): Label 'Signaux SPI Affichage'
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(66.0400 mm, 43.1800 mm): Symbol TP201 [TESTPOINT_1.5MM]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(52.0700 mm, 50.8000 mm): Symbol C201 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(52.0700 mm, 53.3400 mm): Symbol #PWR0202 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(10.1600 mm, 213.3600 mm): Symbol R203 [R_0402_56R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(10.1600 mm, 208.2800 mm): Symbol R202 [R_0402_33R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(10.1600 mm, 218.4400 mm): Symbol R204 [R_0402_56R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(17.7800 mm, 213.3600 mm): Symbol LED201 [LED_MHPC3528CRGBCT]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(27.9400 mm, 220.9800 mm): Symbol #PWR0211 [GND]
+[undefined_netclass]: Netclass DIsplay_Logic_Signals is not defined
+    ; error
+    @(-60.9600 mm, 224.7900 mm): Directive Label [Net Class DIsplay_Logic_Signals]
+[multiple_net_names]: Both BUS I2S and I2S_PDM_DATA are attached to the same items; BUS I2S will be used in the netlist
+    ; warning
+    @(-59.6900 mm, 167.6400 mm): Label 'BUS I2S'
+    @(-59.6900 mm, 167.6400 mm): Label 'I2S_PDM_DATA'
+
+***** Sheet /Battery Management/
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(562.6100 mm, -29.2100 mm): Symbol Q304 [Q_HSS2P10]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(628.6500 mm, -34.2900 mm): Symbol F301 [F_MFU0603FF05000P100]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(562.6100 mm, -17.7800 mm): Symbol R312 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(560.0700 mm, -8.8900 mm): Symbol Q303 [Q_BSS123WQ-7-F]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(549.9100 mm, -5.0800 mm): Symbol R310 [R_0402_1M_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(551.1800 mm, -26.6700 mm): Symbol R311 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(462.2800 mm, -6.3500 mm): Symbol R305 [R_0402_1M_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(474.9800 mm, 0.0000 mm): Symbol #PWR0321 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(562.6100 mm, 0.0000 mm): Symbol #PWR0334 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(642.6200 mm, 2.5400 mm): Symbol #PWR0304 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(624.8400 mm, 2.5400 mm): Symbol #PWR0303 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(624.8400 mm, -10.1600 mm): Symbol D301 [D_SRV05-4]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(640.0800 mm, -30.4800 mm): Symbol J301 [J_JST_S2B-PH-SM4-TB]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(474.9800 mm, -20.3200 mm): Symbol R307 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(474.9800 mm, -33.0200 mm): Symbol Q302 [Q_HSS2P10]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(463.5500 mm, -30.4800 mm): Symbol R306 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+1V8' has been modified in library 'power'
+    ; warning
+    @(457.2000 mm, -35.5600 mm): Symbol #PWR0318 [+1V8]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(472.4400 mm, -10.1600 mm): Symbol Q301 [Q_BSS123WQ-7-F]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(104.1400 mm, 236.2200 mm): Symbol #PWR0319 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(81.2800 mm, 177.8000 mm): Symbol R313 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(128.2700 mm, 133.3500 mm): Symbol Q307 [Q_HSS2P10]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(116.8400 mm, 135.8900 mm): Symbol R317 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(93.9800 mm, 184.1500 mm): Symbol #PWR0337 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(93.9800 mm, 165.1000 mm): Symbol R314 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(104.1400 mm, 149.8600 mm): Symbol D302 [D_1SS301]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(110.4900 mm, 135.8900 mm): Symbol R315 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(93.9800 mm, 162.5600 mm): Symbol #PWR0336 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(128.2700 mm, 166.3700 mm): Symbol #PWR0341 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(125.7300 mm, 156.2100 mm): Symbol Q306 [Q_BSS123WQ-7-F]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(115.5700 mm, 160.0200 mm): Symbol R316 [R_0402_1M_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(128.2700 mm, 146.0500 mm): Symbol R318 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(91.4400 mm, 173.9900 mm): Symbol Q305 [Q_BSS123WQ-7-F]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(29.2100 mm, 81.2800 mm): Symbol #PWR0308 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(41.9100 mm, 81.2800 mm): Symbol #PWR0309 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(25.4000 mm, 81.2800 mm): Symbol #PWR0307 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(76.2000 mm, 73.6600 mm): Symbol R324 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(96.5200 mm, 54.6100 mm): Symbol U303 [U_BQ24296MRGER]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(76.2000 mm, 81.2800 mm): Symbol #PWR0317 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(62.2300 mm, 81.2800 mm): Symbol #PWR0315 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(96.5200 mm, 81.2800 mm): Symbol #PWR0322 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(111.7600 mm, 81.2800 mm): Symbol #PWR0324 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(29.2100 mm, 55.8800 mm): Symbol C303 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(41.9100 mm, 55.8800 mm): Symbol R301 [R_0402_316R_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(25.4000 mm, 55.8800 mm): Symbol C302 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: Symbol 'VBUS' has been modified in library 'power'
+    ; warning
+    @(25.4000 mm, 39.3700 mm): Symbol #PWR0306 [VBUS]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(55.8800 mm, 73.6600 mm): Symbol R323 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(55.8800 mm, 81.2800 mm): Symbol #PWR0313 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(49.5300 mm, 54.6100 mm): Symbol #PWR0311 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(49.5300 mm, 57.1500 mm): Symbol R302 [R_0402_10k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(129.5400 mm, 57.1500 mm): Symbol C309 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(129.5400 mm, 60.9600 mm): Symbol #PWR0326 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(118.1100 mm, 68.5800 mm): Symbol R308 [R_0402_5.23k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(69.8500 mm, 48.2600 mm): Symbol R303 [R_0402_10k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(63.5000 mm, 48.2600 mm): Symbol #PWR0316 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(69.8500 mm, 52.0700 mm): Symbol R304 [R_0402_10k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(137.1600 mm, 39.3700 mm): Symbol L302 [L_TFM252012ALMA1R0MTAA]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(116.8400 mm, 41.9100 mm): Symbol C308 [C_0402_47nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(57.1500 mm, 52.0700 mm): Symbol #PWR0314 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(118.1100 mm, 81.2800 mm): Symbol #PWR0325 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(118.1100 mm, 76.2000 mm): Symbol R309 [R_0603_31.2k_0.5%_0.1W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(166.3700 mm, 44.4500 mm): Symbol C314 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(156.2100 mm, 44.4500 mm): Symbol C312 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(147.3200 mm, 50.8000 mm): Symbol C310 [C_0603_4.7uF_16V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(130.8100 mm, 76.2000 mm): Symbol RT301 [RT_TX06F103F3435ER]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(166.3700 mm, 81.2800 mm): Symbol #PWR0332 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(156.2100 mm, 81.2800 mm): Symbol #PWR0330 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(147.3200 mm, 81.2800 mm): Symbol #PWR0328 [GND]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(82.5500 mm, 39.3700 mm): Symbol U303 Pin 1 [VBUS, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(219.7100 mm, 58.4200 mm): Symbol C306 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(219.7100 mm, 73.6600 mm): Symbol #PWR0320 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(223.5200 mm, 115.5700 mm): Symbol #PWR0301 [+3.3V]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(246.3800 mm, 49.5300 mm): Symbol U304 Pin 5 [VIN, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(229.8700 mm, 58.4200 mm): Symbol C307 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(229.8700 mm, 73.6600 mm): Symbol #PWR0323 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(256.5400 mm, 36.8300 mm): Symbol L301 [L_FNR3015S2R2MT]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(256.5400 mm, 73.6600 mm): Symbol #PWR0327 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(256.5400 mm, 55.8800 mm): Symbol U304 [U_TPS63001DRCR]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(293.3700 mm, 49.5300 mm): Symbol #PWR0333 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(290.8300 mm, 73.6600 mm): Symbol #PWR0331 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(290.8300 mm, 58.4200 mm): Symbol C313 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(280.6700 mm, 58.4200 mm): Symbol C311 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(280.6700 mm, 73.6600 mm): Symbol #PWR0329 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(254.0000 mm, 120.6500 mm): Symbol U301 [U_LP3987H-18B5F]
+[lib_symbol_issues]: Symbol '+1V8' has been modified in library 'power'
+    ; warning
+    @(281.9400 mm, 116.8400 mm): Symbol #PWR0312 [+1V8]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(273.0500 mm, 132.0800 mm): Symbol #PWR0310 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(273.0500 mm, 123.1900 mm): Symbol C304 [C_0805_2.2uF_25V_X7R_20%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(254.0000 mm, 132.0800 mm): Symbol #PWR0305 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(229.8700 mm, 132.0800 mm): Symbol #PWR0302 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(229.8700 mm, 123.1900 mm): Symbol C301 [C_0805_2.2uF_25V_X7R_20%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(104.1400 mm, 224.7900 mm): Symbol U302 [U_MAX17048G+T10]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(76.2000 mm, 227.3300 mm): Symbol C305 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(273.0500 mm, 191.7700 mm): Symbol D303 [D_V2FM10HM3/H]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(280.6700 mm, 196.8500 mm): Symbol R320 [R_0402_200k_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(288.2900 mm, 212.0900 mm): Symbol #PWR0344 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(264.1600 mm, 209.5500 mm): Symbol C317 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(271.7800 mm, 204.4700 mm): Symbol R319 [R_0402_42.2k_1%_0.06W]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(271.7800 mm, 209.5500 mm): Symbol C318 [C_0402_1.2nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(271.7800 mm, 212.0900 mm): Symbol #PWR0342 [GND]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(294.6400 mm, 191.7700 mm): Symbol #PWR0345 Hidden pin 1 [+10V, Power input, Line]
+[lib_symbol_issues]: Symbol '+10V' has been modified in library 'power'
+    ; warning
+    @(294.6400 mm, 191.7700 mm): Symbol #PWR0345 [+10V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(288.2900 mm, 201.9300 mm): Symbol C322 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(288.2900 mm, 201.9300 mm): Symbol C320 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(288.2900 mm, 201.9300 mm): Symbol C319 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(288.2900 mm, 201.9300 mm): Symbol C321 [C_0805_10uF_25V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(254.0000 mm, 196.8500 mm): Symbol U305 [U_TPS61087DRCR]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(280.6700 mm, 212.0900 mm): Symbol #PWR0343 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(280.6700 mm, 204.4700 mm): Symbol R321 [R_0402_26.7k_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(264.1600 mm, 212.0900 mm): Symbol #PWR0340 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(254.0000 mm, 212.0900 mm): Symbol #PWR0339 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(254.0000 mm, 180.3400 mm): Symbol L303 [L_7447789003]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(243.8400 mm, 191.7700 mm): Symbol U305 Pin 8 [IN, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(224.7900 mm, 200.6600 mm): Symbol C315 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(224.7900 mm, 200.6600 mm): Symbol C316 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(242.5700 mm, 212.0900 mm): Symbol #PWR0338 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(224.7900 mm, 212.0900 mm): Symbol #PWR0335 [GND]
+
+***** Sheet /OLED/
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(195.5800 mm, 139.7000 mm): Symbol #PWR0418 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 59.6900 mm): Symbol C408 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(179.0700 mm, 92.7100 mm): Symbol J401 [J_ECX333A]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(195.5800 mm, 73.6600 mm): Symbol #PWR0417 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 80.0100 mm): Symbol C416 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 82.5500 mm): Symbol C417 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 77.4700 mm): Symbol C415 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: Symbol '+10V' has been modified in library 'power'
+    ; warning
+    @(168.9100 mm, 43.1800 mm): Symbol #PWR0401 [+10V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 59.6900 mm): Symbol #PWR0419 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 77.4700 mm): Symbol #PWR0423 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 63.5000 mm): Symbol #PWR0420 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 69.8500 mm): Symbol #PWR0422 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 66.0400 mm): Symbol #PWR0421 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 82.5500 mm): Symbol #PWR0425 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 80.0100 mm): Symbol #PWR0424 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 111.7600 mm): Symbol #PWR0427 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 116.8400 mm): Symbol #PWR0428 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(217.1700 mm, 106.6800 mm): Symbol #PWR0426 [GND]
+[multiple_net_names]: Both +10V and VDD2 are attached to the same items; +10V will be used in the netlist
+    ; warning
+    @(168.9100 mm, 43.1800 mm): Symbol #PWR0401 Hidden pin 1 [+10V, Power input, Line]
+    @(177.8000 mm, 43.1800 mm): Label 'VDD2'
+[multiple_net_names]: Both VDD1 and 1.8V_LCD are attached to the same items; VDD1 will be used in the netlist
+    ; warning
+    @(208.2800 mm, 114.3000 mm): Label 'VDD1'
+    @(168.9100 mm, 34.2900 mm): Hierarchical Label '1.8V_LCD'
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 63.5000 mm): Symbol C411 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 59.6900 mm): Symbol C409 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 59.6900 mm): Symbol C410 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 59.6900 mm): Symbol C407 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 66.0400 mm): Symbol C412 [C_0402_1uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 69.8500 mm): Symbol C414 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(205.7400 mm, 69.8500 mm): Symbol C413 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(107.9500 mm, 43.1800 mm): Symbol C404 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(54.6100 mm, 43.1800 mm): Symbol C401 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(52.0700 mm, 38.1000 mm): Symbol #PWR0402 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(54.6100 mm, 66.0400 mm): Symbol #PWR0403 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(55.8800 mm, 78.7400 mm): Symbol #PWR0404 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(64.7700 mm, 66.0400 mm): Symbol #PWR0408 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(107.9500 mm, 66.0400 mm): Symbol #PWR0411 [GND]
+[multiple_net_names]: Both +1V8 and 1.8V are attached to the same items; +1V8 will be used in the netlist
+    ; warning
+    @(111.7600 mm, 120.6500 mm): Symbol #PWR0416 Hidden pin 1 [+1V8, Power input, Line]
+    @(92.7100 mm, 38.1000 mm): Label '1.8V'
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(81.2800 mm, 50.8000 mm): Symbol U401 [U_TXS0108ERGYR]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(81.2800 mm, 91.4400 mm): Symbol U402 [U_TXS0108ERGYR]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(107.9500 mm, 83.8200 mm): Symbol C405 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(64.7700 mm, 106.6800 mm): Symbol #PWR0409 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(64.7700 mm, 148.5900 mm): Symbol #PWR0410 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(81.2800 mm, 133.3500 mm): Symbol U403 [U_TXS0108ERGYR]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(107.9500 mm, 106.6800 mm): Symbol #PWR0412 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(107.9500 mm, 148.5900 mm): Symbol #PWR0413 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(107.9500 mm, 125.7300 mm): Symbol C406 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+1V8' has been modified in library 'power'
+    ; warning
+    @(111.7600 mm, 38.1000 mm): Symbol #PWR0414 [+1V8]
+[lib_symbol_issues]: Symbol '+1V8' has been modified in library 'power'
+    ; warning
+    @(111.7600 mm, 120.6500 mm): Symbol #PWR0416 [+1V8]
+[lib_symbol_issues]: Symbol '+1V8' has been modified in library 'power'
+    ; warning
+    @(111.7600 mm, 78.7400 mm): Symbol #PWR0415 [+1V8]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(58.4200 mm, 83.8200 mm): Symbol C403 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(57.1500 mm, 148.5900 mm): Symbol #PWR0406 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(58.4200 mm, 106.6800 mm): Symbol #PWR0407 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(57.1500 mm, 125.7300 mm): Symbol C402 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(55.8800 mm, 120.6500 mm): Symbol #PWR0405 [+3.3V]
+
+***** Sheet /User Input/
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(153.6700 mm, 162.5600 mm): Symbol R507 [R_0402_0R_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(153.6700 mm, 185.4200 mm): Symbol #PWR0517 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(186.6900 mm, 44.4500 mm): Symbol #PWR0529 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(153.6700 mm, 52.0700 mm): Symbol U501 [U_VCNL4040M3OE]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(153.6700 mm, 67.3100 mm): Symbol #PWR0520 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(186.6900 mm, 46.9900 mm): Symbol C504 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(186.6900 mm, 67.3100 mm): Symbol #PWR0530 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(175.2600 mm, 67.3100 mm): Symbol #PWR0524 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(175.2600 mm, 49.5300 mm): Symbol C501 [C_0603_2.2uF_10V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(140.9700 mm, 163.8300 mm): Symbol LED503 [LED_LTW-010DCG]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(140.9700 mm, 154.9400 mm): Symbol LED502 [LED_LTW-010DCG]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(151.1300 mm, 175.2600 mm): Symbol Q501 [Q_BSS123WQ-7-F]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(140.9700 mm, 179.0700 mm): Symbol R506 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(151.1300 mm, 109.2200 mm): Symbol #PWR0518 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(137.1600 mm, 146.0500 mm): Symbol #PWR0516 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(210.8200 mm, 105.4100 mm): Symbol U502 [U_MP34DT05TR-A]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(210.8200 mm, 115.5700 mm): Symbol #PWR0521 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(223.5200 mm, 115.5700 mm): Symbol #PWR0523 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(232.4100 mm, 115.5700 mm): Symbol #PWR0526 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(231.1400 mm, 50.8000 mm): Symbol U503 [U_LIS2DW12]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(254.0000 mm, 64.7700 mm): Symbol #PWR0528 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(231.1400 mm, 64.7700 mm): Symbol #PWR0522 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(232.4100 mm, 100.3300 mm): Symbol #PWR0525 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(232.4100 mm, 102.8700 mm): Symbol C502 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(22.8600 mm, 129.5400 mm): Symbol R501 [R_0402_0R_1%_0.06W]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(45.7200 mm, 91.4400 mm): Symbol #PWR0508 Hidden pin 1 [+3.3V, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(38.1000 mm, 82.5500 mm): Symbol D501 [D_SRV05-4]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(38.1000 mm, 95.2500 mm): Symbol #PWR0506 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(45.7200 mm, 91.4400 mm): Symbol #PWR0508 [+3.3V]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(29.2100 mm, 134.6200 mm): Symbol #PWR0502 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(29.2100 mm, 132.0800 mm): Symbol #PWR0501 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(35.5600 mm, 132.0800 mm): Symbol J501 [J_0788641001_PAD]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(41.9100 mm, 129.5400 mm): Symbol #PWR0507 [GND]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(82.5500 mm, 134.6200 mm): Symbol #PWR0510 [GND]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(88.9000 mm, 132.0800 mm): Symbol J504 [J_0788641001_PAD]
+[lib_symbol_issues]: Symbol 'VBUS' has been modified in library 'power'
+    ; warning
+    @(63.5000 mm, 132.0800 mm): Symbol #PWR0509 [VBUS]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(100.3300 mm, 46.9900 mm): Symbol R505 [R_0402_100k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(100.3300 mm, 44.4500 mm): Symbol #PWR0512 [+3.3V]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(100.3300 mm, 69.8500 mm): Symbol #PWR0513 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(149.8600 mm, 99.0600 mm): Symbol SW501 [SW_SKRTLAE010]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.9500 mm, 91.4400 mm): Symbol #PWR0515 Hidden pin 1 [+3.3V, Power input, Line]
+[lib_symbol_issues]: Symbol 'GND' has been modified in library 'power'
+    ; warning
+    @(100.3300 mm, 95.2500 mm): Symbol #PWR0514 [GND]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(107.9500 mm, 91.4400 mm): Symbol #PWR0515 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(100.3300 mm, 82.5500 mm): Symbol D502 [D_SRV05-4]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(213.3600 mm, 44.4500 mm): Symbol #PWR0519 [+3.3V]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(254.0000 mm, 44.4500 mm): Symbol #PWR0527 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(254.0000 mm, 46.9900 mm): Symbol C503 [C_0402_100nF_50V_X7R_10%]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(38.1000 mm, 44.4500 mm): Symbol #PWR0504 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(38.1000 mm, 46.9900 mm): Symbol R503 [R_0402_10k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(38.1000 mm, 69.8500 mm): Symbol #PWR0505 [+3.3V]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(38.1000 mm, 29.2100 mm): Symbol #PWR0503 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(38.1000 mm, 31.7500 mm): Symbol R502 [R_0402_10k_1%_0.06W]
+[lib_symbol_issues]: Symbol '+3.3V' has been modified in library 'power'
+    ; warning
+    @(100.3300 mm, 29.2100 mm): Symbol #PWR0511 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the library '.mounted-lib'
+    ; warning
+    @(100.3300 mm, 31.7500 mm): Symbol R504 [R_0402_100k_1%_0.06W]
+
+ ** ERC messages: 278  Errors 13  Warnings 265

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ".theo-lib")(type "KiCad")(uri "/Users/julien/Documents/GitHub/theo/gouach-electronics/gouach-lib/gouach-lib.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name ".test-bench")(type "KiCad")(uri "/Users/julien/Documents/GitHub/savegouach-electronics/gouach-lib/gouach-lib.kicad_sym")(options "")(descr ""))
+)
