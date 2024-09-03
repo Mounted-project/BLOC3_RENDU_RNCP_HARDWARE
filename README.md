@@ -1,2 +1,4 @@
-# AugMounted-electronics
-Electronic repo for the AugMounted line-up
+Rendu RNCP du bloc 3 partie hardware de l'équipe constituée de :
+Julien CARAYON
+Dorian FOURNIER
+Jordan CLEMENT
